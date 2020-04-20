@@ -1,0 +1,1756 @@
+
+
+I0830 05:44:19.765985 140539192575808 t2t_model.py:2248] Setting T2TModel mode to 'eval'
+I0830 05:44:19.766182 140539192575808 t2t_model.py:2248] Setting hparams.dropout to 0.0
+I0830 05:44:19.766229 140539192575808 t2t_model.py:2248] Setting hparams.label_smoothing to 0.0
+I0830 05:44:19.766271 140539192575808 t2t_model.py:2248] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0830 05:44:19.766307 140539192575808 t2t_model.py:2248] Setting hparams.symbol_dropout to 0.0
+I0830 05:44:19.766347 140539192575808 t2t_model.py:2248] Setting hparams.attention_dropout to 0.0
+I0830 05:44:19.766381 140539192575808 t2t_model.py:2248] Setting hparams.relu_dropout to 0.0
+I0830 05:44:19.819662 140539192575808 api.py:255] Using variable initializer: uniform_unit_scaling
+I0830 05:44:19.867230 140539192575808 t2t_model.py:2248] Transforming feature 'inputs' with symbol_modality_8113_64.bottom
+I0830 05:44:19.950144 140539192575808 t2t_model.py:2248] Transforming feature 'targets' with symbol_modality_8113_64.targets_bottom
+I0830 05:44:19.957409 140539192575808 t2t_model.py:2248] Building model body
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS:
+850912
+
+
+I0830 05:44:20.677976 140539192575808 t2t_model.py:2248] Transforming body output with symbol_modality_8113_64.top
+I0830 05:44:21.160811 140539192575808 estimator.py:1147] Done calling model_fn.
+I0830 05:44:21.171425 140539192575808 evaluation.py:255] Starting evaluation at 2019-08-30T05:44:21Z
+I0830 05:44:21.289549 140539192575808 monitored_session.py:240] Graph was finalized.
+2019-08-30 05:44:21.289856: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 05:44:21.290063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties:
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+2019-08-30 05:44:21.290094: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-08-30 05:44:21.290103: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-08-30 05:44:21.290112: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-08-30 05:44:21.290120: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-08-30 05:44:21.290128: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-08-30 05:44:21.290136: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-08-30 05:44:21.290144: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-30 05:44:21.290181: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 05:44:21.290376: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 05:44:21.290545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-08-30 05:44:21.290563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-30 05:44:21.290568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0
+2019-08-30 05:44:21.290571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N
+2019-08-30 05:44:21.290617: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 05:44:21.290813: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 05:44:21.290989: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7575 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0830 05:44:21.291573 140539192575808 saver.py:1280] Restoring parameters from /home/chrisf/t2t_train/translate_ende_wmt8k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumlayers1-newtest_exp_debug_decoding_general_301/model.ckpt-1000
+I0830 05:44:21.451376 140539192575808 session_manager.py:500] Running local_init_op.
+I0830 05:44:21.489316 140539192575808 session_manager.py:502] Done running local_init_op.
+I0830 05:44:23.696534 140539192575808 evaluation.py:167] Evaluation [10/100]
+I0830 05:44:25.098865 140539192575808 evaluation.py:167] Evaluation [20/100]
+I0830 05:44:25.332257 140539192575808 evaluation.py:167] Evaluation [30/100]
+I0830 05:44:26.099229 140539192575808 evaluation.py:167] Evaluation [40/100]
+I0830 05:44:27.081998 140539192575808 evaluation.py:167] Evaluation [50/100]
+I0830 05:44:27.396307 140539192575808 evaluation.py:275] Finished evaluation at 2019-08-30-05:44:27
+I0830 05:44:27.396440 140539192575808 estimator.py:2039] Saving dict for global step 1000: global_step = 1000, loss = 6.8489156, metrics-translate_ende_wmt8k/targets/accuracy = 0.10775425, metrics-translate_ende_wmt8k/targets/accuracy_per_sequence = 0.0, metrics-translate_ende_wmt8k/targets/accuracy_top5 = 0.20847863, metrics-translate_ende_wmt8k/targets/approx_bleu_score = 0.0046927026, metrics-translate_ende_wmt8k/targets/neg_log_perplexity = -6.908593, metrics-translate_ende_wmt8k/targets/rouge_2_fscore = 0.01406743, metrics-translate_ende_wmt8k/targets/rouge_L_fscore = 0.13804457
+I0830 05:44:27.588142 140539192575808 estimator.py:2099] Saving 'checkpoint_path' summary for global step 1000: /home/chrisf/t2t_train/translate_ende_wmt8k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumlayers1-newtest_exp_debug_decoding_general_301/model.ckpt-1000
+WARNING: Logging before flag parsing goes to stderr.
+W0830 05:44:29.045556 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0830 05:44:29.356041 140402671572800 lazy_loader.py:50]
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0830 05:44:30.787351 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0830 05:44:30.787604 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0830 05:44:30.799752 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0830 05:44:30.799863 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0830 05:44:30.810955 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0830 05:44:30.833251 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0830 05:44:30.843433 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0830 05:44:30.851338 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0830 05:44:30.851423 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0830 05:44:31.239192 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 05:44:31.239286 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 05:44:31.239361 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 05:44:31.239631 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0830 05:44:31.239937 140402671572800 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+
+
+
+
+
+HPARAMS2!!
+
+
+
+
+
+W0830 05:44:31.241122 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:938: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0830 05:44:31.241204 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0830 05:44:31.260557 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0830 05:44:31.260696 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0830 05:44:31.260803 140402671572800 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0830 05:44:31.260900 140402671572800 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0830 05:44:31.260942 140402671572800 devices.py:76] schedule=continuous_train_and_eval
+I0830 05:44:31.260976 140402671572800 devices.py:77] worker_gpu=1
+I0830 05:44:31.261006 140402671572800 devices.py:78] sync=False
+W0830 05:44:31.261052 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/devices.py:139: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0830 05:44:31.261087 140402671572800 devices.py:141] Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+I0830 05:44:31.265602 140402671572800 devices.py:170] datashard_devices: ['gpu:0']
+I0830 05:44:31.265673 140402671572800 devices.py:171] caching_devices: None
+I0830 05:44:31.265738 140402671572800 devices.py:172] ps_devices: ['gpu:0']
+I0830 05:44:31.266036 140402671572800 estimator.py:209] Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fb1a832c910>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_experimental_max_worker_delay_secs': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_protocol': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+    global_jit_level: OFF
+  }
+}
+isolate_session_state: true
+, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/chrisf/t2t_train/translate_ende_wmt8k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumlayers1-newtest_exp_debug_decoding_general_301', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7fb1a832c950>}
+W0830 05:44:31.266183 140402671572800 model_fn.py:630] Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7fb1a83a0b00>) includes params argument, but params are not passed to Estimator.
+I0830 05:44:31.266282 140402671572800 decoding.py:404] decode_hp.batch_size not specified; default=32
+I0830 05:44:31.266348 140402671572800 decoding.py:415] Performing decoding from file (/home/chrisf/t2t_data/newstest2014.en).
+I0830 05:44:31.266396 140402671572800 decoding.py:860] Getting sorted inputs
+I0830 05:44:31.279925 140402671572800 decoding.py:673]  batch 86
+I0830 05:44:31.280004 140402671572800 decoding.py:675] Decoding batch 0
+W0830 05:44:31.286240 140402671572800 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:617: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+
+W0830 05:44:31.287744 140402671572800 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:950: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0830 05:44:31.290940 140402671572800 estimator.py:1000] Input graph does not use tf.data.Dataset or contain a QueueRunner. That means predict yields forever. This is probably a mistake.
+I0830 05:44:31.291105 140402671572800 estimator.py:1145] Calling model_fn.
+
+
+
+
+
+INIT CONVT!!
+
+
+
+
+
+I0830 05:44:31.291561 140402671572800 t2t_model.py:2248] Setting T2TModel mode to 'infer'
+I0830 05:44:31.291777 140402671572800 t2t_model.py:2248] Setting hparams.dropout to 0.0
+I0830 05:44:31.291824 140402671572800 t2t_model.py:2248] Setting hparams.label_smoothing to 0.0
+I0830 05:44:31.291866 140402671572800 t2t_model.py:2248] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0830 05:44:31.291903 140402671572800 t2t_model.py:2248] Setting hparams.symbol_dropout to 0.0
+I0830 05:44:31.291944 140402671572800 t2t_model.py:2248] Setting hparams.attention_dropout to 0.0
+I0830 05:44:31.291977 140402671572800 t2t_model.py:2248] Setting hparams.relu_dropout to 0.0
+W0830 05:44:31.335088 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:244: The name tf.summary.text is deprecated. Please use tf.compat.v1.summary.text instead.
+
+I0830 05:44:31.342478 140402671572800 t2t_model.py:2248] Beam Decoding with beam size 4
+W0830 05:44:31.381716 140402671572800 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py:745: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+I0830 05:44:31.888224 140402671572800 api.py:255] Using variable initializer: uniform_unit_scaling
+W0830 05:44:31.913743 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+I0830 05:44:32.105849 140402671572800 t2t_model.py:2248] Transforming feature 'inputs' with symbol_modality_8113_64.bottom
+I0830 05:44:32.204032 140402671572800 t2t_model.py:2248] Transforming feature 'targets' with symbol_modality_8113_64.targets_bottom
+I0830 05:44:32.212451 140402671572800 t2t_model.py:2248] Building model body
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+W0830 05:44:32.232516 140402671572800 deprecation.py:506] From /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/ConvTransformer_T2TApril2019_2.py:2677: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0830 05:44:32.236530 140402671572800 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:621: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0830 05:44:32.255156 140402671572800 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_layers.py:3077: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+W0830 05:44:32.430004 140402671572800 deprecation.py:506] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS:
+850912
+
+
+I0830 05:44:32.968591 140402671572800 t2t_model.py:2248] Transforming body output with symbol_modality_8113_64.top
+I0830 05:44:33.060607 140402671572800 control_flow_util.py:349] Cannot use 'while/Pad' as input to 'Identity_41' because 'while/Pad' is in a while loop.
+
+Identity_41 while context: None
+while/Pad while context: while/while_context
+
+Traceback for Identity_41:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1708, in estimator_spec_predict
+    features[name] = tf.identity(feature)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 86, in identity
+    ret = gen_array_ops.identity(input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4253, in identity
+    "Identity", input=input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+Traceback for while/Pad:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1696, in estimator_spec_predict
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 817, in infer
+    top_beams, alpha, use_tpu)
+  File "/home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/ConvTransformer_T2TApril2019_2.py", line 3030, in _beam_decode
+    top_beams, alpha, use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 940, in _beam_decode_slow
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 800, in beam_search
+    back_prop=False)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3501, in while_loop
+    return_same_structure)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3012, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2937, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 717, in inner_loop
+    i, alive_seq, alive_log_probs, states)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 597, in grow_topk
+    flat_logits = symbols_to_logits_fn(flat_ids)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 873, in symbols_to_logits_fn
+    ids = tf.pad(ids[:, 1:], [[0, 0], [0, 1], [0, 0], [0, 0]])
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 2367, in pad
+    result = gen_array_ops.pad(tensor, paddings, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 5993, in pad
+    "Pad", input=input, paddings=paddings, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+
+Traceback (most recent call last):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1708, in estimator_spec_predict
+    features[name] = tf.identity(feature)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 86, in identity
+    ret = gen_array_ops.identity(input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4253, in identity
+    "Identity", input=input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2043, in __init__
+    self._control_flow_post_processing()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2052, in _control_flow_post_processing
+    control_flow_util.CheckInputFromValidContext(self, input_tensor.op)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_util.py", line 350, in CheckInputFromValidContext
+    raise ValueError(error_msg + " See info log for more details.")
+ValueError: Cannot use 'while/Pad' as input to 'Identity_41' because 'while/Pad' is in a while loop. See info log for more details.
+WARNING: Logging before flag parsing goes to stderr.
+W0830 05:44:35.236801 140285130307392 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 05:44:35.236952 140285130307392 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 05:44:35.237064 140285130307392 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:18: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 05:44:35.237360 140285130307392 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:205: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+BLEU_uncased =   0.03
+BLEU_cased =   0.03
+(thesis_tf) chrisf@chris-TF-desktop:~/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INIT CONVT!!
+
+
+
+
+
+I0830 06:26:57.520608 140062506567488 t2t_model.py:2248] Setting T2TModel mode to 'eval'
+I0830 06:26:57.520820 140062506567488 t2t_model.py:2248] Setting hparams.dropout to 0.0
+I0830 06:26:57.520880 140062506567488 t2t_model.py:2248] Setting hparams.label_smoothing to 0.0
+I0830 06:26:57.520935 140062506567488 t2t_model.py:2248] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0830 06:26:57.520985 140062506567488 t2t_model.py:2248] Setting hparams.symbol_dropout to 0.0
+I0830 06:26:57.521053 140062506567488 t2t_model.py:2248] Setting hparams.attention_dropout to 0.0
+I0830 06:26:57.521086 140062506567488 t2t_model.py:2248] Setting hparams.relu_dropout to 0.0
+I0830 06:26:57.573081 140062506567488 api.py:255] Using variable initializer: uniform_unit_scaling
+I0830 06:26:57.619489 140062506567488 t2t_model.py:2248] Transforming feature 'inputs' with symbol_modality_8113_64.bottom
+I0830 06:26:57.700165 140062506567488 t2t_model.py:2248] Transforming feature 'targets' with symbol_modality_8113_64.targets_bottom
+I0830 06:26:57.707258 140062506567488 t2t_model.py:2248] Building model body
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS:
+850912
+
+
+I0830 06:26:58.277100 140062506567488 t2t_model.py:2248] Transforming body output with symbol_modality_8113_64.top
+I0830 06:26:58.682126 140062506567488 estimator.py:1147] Done calling model_fn.
+I0830 06:26:58.692870 140062506567488 evaluation.py:255] Starting evaluation at 2019-08-30T06:26:58Z
+I0830 06:26:58.882512 140062506567488 monitored_session.py:240] Graph was finalized.
+2019-08-30 06:26:58.882885: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 06:26:58.883141: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties:
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+2019-08-30 06:26:58.883216: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-08-30 06:26:58.883242: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-08-30 06:26:58.883252: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-08-30 06:26:58.883261: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-08-30 06:26:58.883282: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-08-30 06:26:58.883313: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-08-30 06:26:58.883322: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-30 06:26:58.883371: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 06:26:58.883625: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 06:26:58.883814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-08-30 06:26:58.883847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-30 06:26:58.883852: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0
+2019-08-30 06:26:58.883856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N
+2019-08-30 06:26:58.883929: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 06:26:58.884170: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 06:26:58.884392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7575 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0830 06:26:58.885343 140062506567488 saver.py:1280] Restoring parameters from /home/chrisf/t2t_train/translate_ende_wmt8k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumlayers1-newtest_exp_debug_decoding_general_301/model.ckpt-100000
+I0830 06:26:59.045500 140062506567488 session_manager.py:500] Running local_init_op.
+I0830 06:26:59.086043 140062506567488 session_manager.py:502] Done running local_init_op.
+I0830 06:27:01.262508 140062506567488 evaluation.py:167] Evaluation [10/100]
+I0830 06:27:02.702270 140062506567488 evaluation.py:167] Evaluation [20/100]
+I0830 06:27:02.958789 140062506567488 evaluation.py:167] Evaluation [30/100]
+I0830 06:27:03.991462 140062506567488 evaluation.py:167] Evaluation [40/100]
+I0830 06:27:04.985780 140062506567488 evaluation.py:167] Evaluation [50/100]
+I0830 06:27:05.301852 140062506567488 evaluation.py:275] Finished evaluation at 2019-08-30-06:27:05
+I0830 06:27:05.301989 140062506567488 estimator.py:2039] Saving dict for global step 100000: global_step = 100000, loss = 3.4556363, metrics-translate_ende_wmt8k/targets/accuracy = 0.41973758, metrics-translate_ende_wmt8k/targets/accuracy_per_sequence = 0.0013333333, metrics-translate_ende_wmt8k/targets/accuracy_top5 = 0.6132266, metrics-translate_ende_wmt8k/targets/approx_bleu_score = 0.14395992, metrics-translate_ende_wmt8k/targets/neg_log_perplexity = -3.475535, metrics-translate_ende_wmt8k/targets/rouge_2_fscore = 0.20837049, metrics-translate_ende_wmt8k/targets/rouge_L_fscore = 0.4245772
+I0830 06:27:05.488273 140062506567488 estimator.py:2099] Saving 'checkpoint_path' summary for global step 100000: /home/chrisf/t2t_train/translate_ende_wmt8k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumlayers1-newtest_exp_debug_decoding_general_301/model.ckpt-100000
+WARNING: Logging before flag parsing goes to stderr.
+W0830 06:27:06.871350 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0830 06:27:07.171432 140447009396544 lazy_loader.py:50]
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0830 06:27:08.567928 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0830 06:27:08.568211 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0830 06:27:08.580319 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0830 06:27:08.580482 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0830 06:27:08.591183 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0830 06:27:08.613329 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0830 06:27:08.623191 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0830 06:27:08.630918 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0830 06:27:08.631042 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0830 06:27:09.011086 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 06:27:09.011223 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 06:27:09.011352 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 06:27:09.011686 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0830 06:27:09.012069 140447009396544 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+
+
+
+
+
+HPARAMS2!!
+
+
+
+
+
+W0830 06:27:09.013322 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:938: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0830 06:27:09.013415 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0830 06:27:09.032371 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0830 06:27:09.032530 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0830 06:27:09.032658 140447009396544 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0830 06:27:09.032782 140447009396544 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0830 06:27:09.032837 140447009396544 devices.py:76] schedule=continuous_train_and_eval
+I0830 06:27:09.032868 140447009396544 devices.py:77] worker_gpu=1
+I0830 06:27:09.032942 140447009396544 devices.py:78] sync=False
+W0830 06:27:09.033016 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/devices.py:139: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0830 06:27:09.033078 140447009396544 devices.py:141] Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+I0830 06:27:09.037445 140447009396544 devices.py:170] datashard_devices: ['gpu:0']
+I0830 06:27:09.037540 140447009396544 devices.py:171] caching_devices: None
+I0830 06:27:09.037630 140447009396544 devices.py:172] ps_devices: ['gpu:0']
+I0830 06:27:09.037954 140447009396544 estimator.py:209] Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fbbfaf05790>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_experimental_max_worker_delay_secs': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_protocol': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+    global_jit_level: OFF
+  }
+}
+isolate_session_state: true
+, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/chrisf/t2t_train/translate_ende_wmt8k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumlayers1-newtest_exp_debug_decoding_general_301', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7fbbfaf05850>}
+W0830 06:27:09.038110 140447009396544 model_fn.py:630] Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7fbbfaf77b00>) includes params argument, but params are not passed to Estimator.
+I0830 06:27:09.038197 140447009396544 decoding.py:404] decode_hp.batch_size not specified; default=32
+I0830 06:27:09.038266 140447009396544 decoding.py:415] Performing decoding from file (/home/chrisf/t2t_data/newstest2014.en).
+I0830 06:27:09.038312 140447009396544 decoding.py:860] Getting sorted inputs
+I0830 06:27:09.052927 140447009396544 decoding.py:673]  batch 86
+I0830 06:27:09.053004 140447009396544 decoding.py:675] Decoding batch 0
+W0830 06:27:09.058675 140447009396544 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:617: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+
+W0830 06:27:09.060069 140447009396544 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:950: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0830 06:27:09.063133 140447009396544 estimator.py:1000] Input graph does not use tf.data.Dataset or contain a QueueRunner. That means predict yields forever. This is probably a mistake.
+I0830 06:27:09.063320 140447009396544 estimator.py:1145] Calling model_fn.
+
+
+
+
+
+INIT CONVT!!
+
+
+
+
+
+I0830 06:27:09.063822 140447009396544 t2t_model.py:2248] Setting T2TModel mode to 'infer'
+I0830 06:27:09.064021 140447009396544 t2t_model.py:2248] Setting hparams.dropout to 0.0
+I0830 06:27:09.064080 140447009396544 t2t_model.py:2248] Setting hparams.label_smoothing to 0.0
+I0830 06:27:09.064150 140447009396544 t2t_model.py:2248] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0830 06:27:09.064186 140447009396544 t2t_model.py:2248] Setting hparams.symbol_dropout to 0.0
+I0830 06:27:09.064254 140447009396544 t2t_model.py:2248] Setting hparams.attention_dropout to 0.0
+I0830 06:27:09.064315 140447009396544 t2t_model.py:2248] Setting hparams.relu_dropout to 0.0
+W0830 06:27:09.106218 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:244: The name tf.summary.text is deprecated. Please use tf.compat.v1.summary.text instead.
+
+I0830 06:27:09.113615 140447009396544 t2t_model.py:2248] Beam Decoding with beam size 4
+W0830 06:27:09.151694 140447009396544 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py:745: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+I0830 06:27:09.646079 140447009396544 api.py:255] Using variable initializer: uniform_unit_scaling
+W0830 06:27:09.671372 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+I0830 06:27:09.856061 140447009396544 t2t_model.py:2248] Transforming feature 'inputs' with symbol_modality_8113_64.bottom
+I0830 06:27:09.950043 140447009396544 t2t_model.py:2248] Transforming feature 'targets' with symbol_modality_8113_64.targets_bottom
+I0830 06:27:09.958235 140447009396544 t2t_model.py:2248] Building model body
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+W0830 06:27:09.978637 140447009396544 deprecation.py:506] From /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/ConvTransformer_T2TApril2019_2.py:2677: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0830 06:27:09.982546 140447009396544 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:621: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0830 06:27:10.001091 140447009396544 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_layers.py:3077: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+W0830 06:27:10.173300 140447009396544 deprecation.py:506] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS:
+850912
+
+
+I0830 06:27:10.690440 140447009396544 t2t_model.py:2248] Transforming body output with symbol_modality_8113_64.top
+I0830 06:27:10.768568 140447009396544 control_flow_util.py:349] Cannot use 'while/Pad' as input to 'Identity_41' because 'while/Pad' is in a while loop.
+
+Identity_41 while context: None
+while/Pad while context: while/while_context
+
+Traceback for Identity_41:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1708, in estimator_spec_predict
+    features[name] = tf.identity(feature)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 86, in identity
+    ret = gen_array_ops.identity(input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4253, in identity
+    "Identity", input=input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+Traceback for while/Pad:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1696, in estimator_spec_predict
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 817, in infer
+    top_beams, alpha, use_tpu)
+  File "/home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/ConvTransformer_T2TApril2019_2.py", line 3030, in _beam_decode
+    top_beams, alpha, use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 940, in _beam_decode_slow
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 800, in beam_search
+    back_prop=False)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3501, in while_loop
+    return_same_structure)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3012, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2937, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 717, in inner_loop
+    i, alive_seq, alive_log_probs, states)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 597, in grow_topk
+    flat_logits = symbols_to_logits_fn(flat_ids)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 873, in symbols_to_logits_fn
+    ids = tf.pad(ids[:, 1:], [[0, 0], [0, 1], [0, 0], [0, 0]])
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 2367, in pad
+    result = gen_array_ops.pad(tensor, paddings, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 5993, in pad
+    "Pad", input=input, paddings=paddings, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+
+Traceback (most recent call last):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1708, in estimator_spec_predict
+    features[name] = tf.identity(feature)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 86, in identity
+    ret = gen_array_ops.identity(input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4253, in identity
+    "Identity", input=input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2043, in __init__
+    self._control_flow_post_processing()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2052, in _control_flow_post_processing
+    control_flow_util.CheckInputFromValidContext(self, input_tensor.op)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_util.py", line 350, in CheckInputFromValidContext
+    raise ValueError(error_msg + " See info log for more details.")
+ValueError: Cannot use 'while/Pad' as input to 'Identity_41' because 'while/Pad' is in a while loop. See info log for more details.
+WARNING: Logging before flag parsing goes to stderr.
+W0830 06:27:12.880554 139722682976064 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 06:27:12.880703 139722682976064 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 06:27:12.880812 139722682976064 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:18: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 06:27:12.881094 139722682976064 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:205: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+BLEU_uncased =   0.03
+BLEU_cased =   0.03
+
+
+
+
+
+
+
+
+
+
+
+
+I0830 11:12:25.065209 140208990037824 t2t_model.py:2248] Setting T2TModel mode to 'eval'
+I0830 11:12:25.065404 140208990037824 t2t_model.py:2248] Setting hparams.dropout to 0.0
+I0830 11:12:25.065453 140208990037824 t2t_model.py:2248] Setting hparams.label_smoothing to 0.0
+I0830 11:12:25.065497 140208990037824 t2t_model.py:2248] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0830 11:12:25.065535 140208990037824 t2t_model.py:2248] Setting hparams.symbol_dropout to 0.0
+I0830 11:12:25.065578 140208990037824 t2t_model.py:2248] Setting hparams.attention_dropout to 0.0
+I0830 11:12:25.065614 140208990037824 t2t_model.py:2248] Setting hparams.relu_dropout to 0.0
+I0830 11:12:25.120036 140208990037824 api.py:255] Using variable initializer: uniform_unit_scaling
+I0830 11:12:25.168809 140208990037824 t2t_model.py:2248] Transforming feature 'inputs' with symbol_modality_33510_304.bottom
+I0830 11:12:25.252490 140208990037824 t2t_model.py:2248] Transforming feature 'targets' with symbol_modality_33510_304.targets_bottom
+I0830 11:12:25.259966 140208990037824 t2t_model.py:2248] Building model body
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS:
+68857320
+
+
+I0830 11:12:28.750525 140208990037824 t2t_model.py:2248] Transforming body output with symbol_modality_33510_304.top
+I0830 11:12:29.168129 140208990037824 estimator.py:1147] Done calling model_fn.
+I0830 11:12:29.179448 140208990037824 evaluation.py:255] Starting evaluation at 2019-08-30T11:12:29Z
+I0830 11:12:29.640199 140208990037824 monitored_session.py:240] Graph was finalized.
+2019-08-30 11:12:29.640585: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 11:12:29.640854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties:
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+2019-08-30 11:12:29.640931: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-08-30 11:12:29.640957: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-08-30 11:12:29.640968: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-08-30 11:12:29.640990: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-08-30 11:12:29.641017: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-08-30 11:12:29.641042: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-08-30 11:12:29.641052: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-08-30 11:12:29.641133: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 11:12:29.641435: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 11:12:29.641668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-08-30 11:12:29.641701: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-30 11:12:29.641723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0
+2019-08-30 11:12:29.641727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N
+2019-08-30 11:12:29.641848: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 11:12:29.642080: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-08-30 11:12:29.642280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7575 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0830 11:12:29.643254 140208990037824 saver.py:1280] Restoring parameters from /home/chrisf/t2t_train/translate_ende_wmt32k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumparams2-newtest_exp_debug_decoding_general_302/model.ckpt-100000
+I0830 11:12:30.276509 140208990037824 session_manager.py:500] Running local_init_op.
+I0830 11:12:30.354343 140208990037824 session_manager.py:502] Done running local_init_op.
+I0830 11:12:33.866582 140208990037824 evaluation.py:167] Evaluation [10/100]
+I0830 11:12:35.558525 140208990037824 evaluation.py:167] Evaluation [20/100]
+I0830 11:12:37.288039 140208990037824 evaluation.py:167] Evaluation [30/100]
+I0830 11:12:39.162386 140208990037824 evaluation.py:167] Evaluation [40/100]
+I0830 11:12:40.948261 140208990037824 evaluation.py:167] Evaluation [50/100]
+I0830 11:12:42.881290 140208990037824 evaluation.py:167] Evaluation [60/100]
+I0830 11:12:44.701556 140208990037824 evaluation.py:167] Evaluation [70/100]
+I0830 11:12:46.375930 140208990037824 evaluation.py:167] Evaluation [80/100]
+I0830 11:12:47.108528 140208990037824 evaluation.py:167] Evaluation [90/100]
+I0830 11:12:48.305863 140208990037824 evaluation.py:167] Evaluation [100/100]
+I0830 11:12:48.437330 140208990037824 evaluation.py:275] Finished evaluation at 2019-08-30-11:12:48
+I0830 11:12:48.437463 140208990037824 estimator.py:2039] Saving dict for global step 100000: global_step = 100000, loss = 2.3405247, metrics-translate_ende_wmt32k/targets/accuracy = 0.579929, metrics-translate_ende_wmt32k/targets/accuracy_per_sequence = 0.006930007, metrics-translate_ende_wmt32k/targets/accuracy_top5 = 0.7687052, metrics-translate_ende_wmt32k/targets/approx_bleu_score = 0.27839214, metrics-translate_ende_wmt32k/targets/neg_log_perplexity = -2.3727365, metrics-translate_ende_wmt32k/targets/rouge_2_fscore = 0.35635903, metrics-translate_ende_wmt32k/targets/rouge_L_fscore = 0.5627219
+I0830 11:12:48.958383 140208990037824 estimator.py:2099] Saving 'checkpoint_path' summary for global step 100000: /home/chrisf/t2t_train/translate_ende_wmt32k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumparams2-newtest_exp_debug_decoding_general_302/model.ckpt-100000
+WARNING: Logging before flag parsing goes to stderr.
+W0830 11:12:53.340345 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0830 11:12:54.671891 139726314317632 lazy_loader.py:50]
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0830 11:12:56.143994 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0830 11:12:56.145231 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0830 11:12:56.184323 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0830 11:12:56.184474 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0830 11:12:56.237364 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0830 11:12:56.332407 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0830 11:12:56.388250 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0830 11:12:56.429663 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0830 11:12:56.430172 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0830 11:12:57.637685 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 11:12:57.637868 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 11:12:57.638022 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 11:12:57.638585 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0830 11:12:57.639168 139726314317632 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+
+
+
+
+
+HPARAMS3!!
+
+
+
+
+
+W0830 11:12:57.646813 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:938: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0830 11:12:57.647056 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0830 11:12:57.728760 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0830 11:12:57.728935 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0830 11:12:57.729057 139726314317632 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0830 11:12:57.729197 139726314317632 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0830 11:12:57.729239 139726314317632 devices.py:76] schedule=continuous_train_and_eval
+I0830 11:12:57.729303 139726314317632 devices.py:77] worker_gpu=1
+I0830 11:12:57.729380 139726314317632 devices.py:78] sync=False
+W0830 11:12:57.729494 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/devices.py:139: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0830 11:12:57.729529 139726314317632 devices.py:141] Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+I0830 11:12:57.734638 139726314317632 devices.py:170] datashard_devices: ['gpu:0']
+I0830 11:12:57.734739 139726314317632 devices.py:171] caching_devices: None
+I0830 11:12:57.734805 139726314317632 devices.py:172] ps_devices: ['gpu:0']
+I0830 11:12:57.735100 139726314317632 estimator.py:209] Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f142e147610>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_experimental_max_worker_delay_secs': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_protocol': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+    global_jit_level: OFF
+  }
+}
+isolate_session_state: true
+, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/chrisf/t2t_train/translate_ende_wmt32k/conv_transformer_april2019-conv_transformer_exp1_ctweqnumparams2-newtest_exp_debug_decoding_general_302', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7f142e147690>}
+W0830 11:12:57.735258 139726314317632 model_fn.py:630] Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7f142e316b00>) includes params argument, but params are not passed to Estimator.
+I0830 11:12:57.735374 139726314317632 decoding.py:404] decode_hp.batch_size not specified; default=32
+I0830 11:12:57.735458 139726314317632 decoding.py:415] Performing decoding from file (/home/chrisf/t2t_data/newstest2014.en).
+I0830 11:12:57.735492 139726314317632 decoding.py:860] Getting sorted inputs
+I0830 11:12:57.752216 139726314317632 decoding.py:673]  batch 86
+I0830 11:12:57.752294 139726314317632 decoding.py:675] Decoding batch 0
+W0830 11:12:57.757636 139726314317632 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:617: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+
+W0830 11:12:57.759009 139726314317632 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:950: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0830 11:12:57.762196 139726314317632 estimator.py:1000] Input graph does not use tf.data.Dataset or contain a QueueRunner. That means predict yields forever. This is probably a mistake.
+I0830 11:12:57.762363 139726314317632 estimator.py:1145] Calling model_fn.
+
+
+
+
+
+INIT CONVT!!
+
+
+
+
+
+I0830 11:12:57.762854 139726314317632 t2t_model.py:2248] Setting T2TModel mode to 'infer'
+I0830 11:12:57.763059 139726314317632 t2t_model.py:2248] Setting hparams.dropout to 0.0
+I0830 11:12:57.763104 139726314317632 t2t_model.py:2248] Setting hparams.label_smoothing to 0.0
+I0830 11:12:57.763193 139726314317632 t2t_model.py:2248] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0830 11:12:57.763266 139726314317632 t2t_model.py:2248] Setting hparams.symbol_dropout to 0.0
+I0830 11:12:57.763344 139726314317632 t2t_model.py:2248] Setting hparams.attention_dropout to 0.0
+I0830 11:12:57.763407 139726314317632 t2t_model.py:2248] Setting hparams.relu_dropout to 0.0
+W0830 11:12:57.806066 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:244: The name tf.summary.text is deprecated. Please use tf.compat.v1.summary.text instead.
+
+I0830 11:12:57.813681 139726314317632 t2t_model.py:2248] Beam Decoding with beam size 4
+W0830 11:12:57.852027 139726314317632 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py:745: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+I0830 11:12:58.354237 139726314317632 api.py:255] Using variable initializer: uniform_unit_scaling
+W0830 11:12:58.379004 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+I0830 11:12:58.579066 139726314317632 t2t_model.py:2248] Transforming feature 'inputs' with symbol_modality_33510_304.bottom
+I0830 11:12:58.677070 139726314317632 t2t_model.py:2248] Transforming feature 'targets' with symbol_modality_33510_304.targets_bottom
+I0830 11:12:58.685385 139726314317632 t2t_model.py:2248] Building model body
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+W0830 11:12:58.705738 139726314317632 deprecation.py:506] From /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/ConvTransformer_T2TApril2019_2.py:2677: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0830 11:12:58.709887 139726314317632 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:621: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0830 11:12:58.728527 139726314317632 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_layers.py:3077: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+W0830 11:12:58.900091 139726314317632 deprecation.py:506] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS:
+68857320
+
+
+I0830 11:13:01.950953 139726314317632 t2t_model.py:2248] Transforming body output with symbol_modality_33510_304.top
+I0830 11:13:02.048222 139726314317632 control_flow_util.py:349] Cannot use 'while/Pad' as input to 'Identity_121' because 'while/Pad' is in a while loop.
+
+Identity_121 while context: None
+while/Pad while context: while/while_context
+
+Traceback for Identity_121:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1708, in estimator_spec_predict
+    features[name] = tf.identity(feature)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 86, in identity
+    ret = gen_array_ops.identity(input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4253, in identity
+    "Identity", input=input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+Traceback for while/Pad:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1696, in estimator_spec_predict
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 817, in infer
+    top_beams, alpha, use_tpu)
+  File "/home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/ConvTransformer_T2TApril2019_2.py", line 3030, in _beam_decode
+    top_beams, alpha, use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 940, in _beam_decode_slow
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 800, in beam_search
+    back_prop=False)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3501, in while_loop
+    return_same_structure)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 3012, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2937, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 717, in inner_loop
+    i, alive_seq, alive_log_probs, states)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py", line 597, in grow_topk
+    flat_logits = symbols_to_logits_fn(flat_ids)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 873, in symbols_to_logits_fn
+    ids = tf.pad(ids[:, 1:], [[0, 0], [0, 1], [0, 0], [0, 0]])
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 2367, in pad
+    result = gen_array_ops.pad(tensor, paddings, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 5993, in pad
+    "Pad", input=input, paddings=paddings, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+
+Traceback (most recent call last):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 619, in predict
+    features, None, ModeKeys.PREDICT, self.config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1415, in wrapping_model_fn
+    use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1472, in estimator_model_fn
+    return model.estimator_spec_predict(features, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1708, in estimator_spec_predict
+    features[name] = tf.identity(feature)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 86, in identity
+    ret = gen_array_ops.identity(input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4253, in identity
+    "Identity", input=input, name=name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2043, in __init__
+    self._control_flow_post_processing()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2052, in _control_flow_post_processing
+    control_flow_util.CheckInputFromValidContext(self, input_tensor.op)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/control_flow_util.py", line 350, in CheckInputFromValidContext
+    raise ValueError(error_msg + " See info log for more details.")
+ValueError: Cannot use 'while/Pad' as input to 'Identity_121' because 'while/Pad' is in a while loop. See info log for more details.
+WARNING: Logging before flag parsing goes to stderr.
+W0830 11:13:04.388356 140613119870784 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 11:13:04.388563 140613119870784 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 11:13:04.388711 140613119870784 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:18: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 11:13:04.389036 140613119870784 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:205: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+BLEU_uncased =   0.03
+BLEU_cased =   0.03
+
+
+
+
+
+
+I0830 21:19:58.566946 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt keine Menge, die Sie kritisieren können .
+I0830 21:19:58.567071 139928637572928 decoding.py:152] Inference results INPUT: We must stay composed and keep it up .
+I0830 21:19:58.567175 139928637572928 decoding.py:167] Inference results OUTPUT: Wir müssen zusammenarbeiten und halten es .
+I0830 21:19:58.567301 139928637572928 decoding.py:152] Inference results INPUT: There is no major reason to change anything .
+I0830 21:19:58.567412 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt keinen Grund, etwas zu ändern.
+I0830 21:19:58.567559 139928637572928 decoding.py:152] Inference results INPUT: They are being accompanied by strict security precautions .
+I0830 21:19:58.567684 139928637572928 decoding.py:167] Inference results OUTPUT: Sie werden von strengen Sicherheitsvorkehrungen begleitet.
+I0830 21:19:58.567808 139928637572928 decoding.py:152] Inference results INPUT: A member of security staff was also killed .
+I0830 21:19:58.567931 139928637572928 decoding.py:167] Inference results OUTPUT: Auch wurde ein Mitglied der Sicherheitskräfte getötet.
+I0830 21:19:58.568065 139928637572928 decoding.py:152] Inference results INPUT: The media also reported that several people injured .
+I0830 21:19:58.568203 139928637572928 decoding.py:167] Inference results OUTPUT: Die Medien berichteten auch, dass mehrere Menschen verletzt wurden.
+I0830 21:19:58.568324 139928637572928 decoding.py:152] Inference results INPUT: This really is a must for our nation .
+I0830 21:19:58.568443 139928637572928 decoding.py:167] Inference results OUTPUT: Das ist wirklich ein Muss für unsere Nation .
+I0830 21:19:58.568580 139928637572928 decoding.py:152] Inference results INPUT: Cars get many more miles to the gallon .
+I0830 21:19:58.568704 139928637572928 decoding.py:167] Inference results OUTPUT: Cars erhalten viele Meilen an der Gallon .
+I0830 21:19:58.568862 139928637572928 decoding.py:152] Inference results INPUT: What do you think about Pammy &apos;s hair ?
+I0830 21:19:58.569010 139928637572928 decoding.py:167] Inference results OUTPUT: Was denken Sie über Pammy &apos;s hair ?
+I0830 21:19:58.569216 139928637572928 decoding.py:152] Inference results INPUT: E ##AT##-##AT##  mail is short for electronic mail .
+I0830 21:19:58.569479 139928637572928 decoding.py:167] Inference results OUTPUT: E #AT#-#AT#AT# # # # # # # # #mail ist kurz für elektronische Mails .
+I0830 21:19:58.569622 139928637572928 decoding.py:152] Inference results INPUT: Sometimes a traffic light simply never turns green .
+I0830 21:19:58.569748 139928637572928 decoding.py:167] Inference results OUTPUT: Manchmal wird ein Verkehrslicht einfach nie grün.
+I0830 21:19:58.570114 139923138598656 decoding.py:675] Decoding batch 80
+I0830 21:19:59.343652 139928637572928 decoding.py:152] Inference results INPUT: When I was little , Halloween was magical .
+I0830 21:19:59.343825 139928637572928 decoding.py:167] Inference results OUTPUT: Als ich wenig war, war Halloween magisch .
+I0830 21:19:59.343980 139928637572928 decoding.py:152] Inference results INPUT: That &apos;s a lot of ironic hotdog dogs .
+I0830 21:19:59.344064 139928637572928 decoding.py:167] Inference results OUTPUT: Das &apos;
+I0830 21:19:59.344206 139928637572928 decoding.py:152] Inference results INPUT: Nothing is more quintessentially Halloween than haunted houses .
+I0830 21:19:59.344323 139928637572928 decoding.py:167] Inference results OUTPUT: Nichts ist ziemlich gut Halloween als Häuser.
+I0830 21:19:59.344448 139928637572928 decoding.py:152] Inference results INPUT: They stockpile the coal that arrives on ships .
+I0830 21:19:59.344564 139928637572928 decoding.py:167] Inference results OUTPUT: Sie bilden die Kohle, die an Schiffen ankommt.
+I0830 21:19:59.344696 139928637572928 decoding.py:152] Inference results INPUT: Plant whipping cream can replace traditional whipping cream .
+I0830 21:19:59.344819 139928637572928 decoding.py:167] Inference results OUTPUT: Plant weißer Creme kann traditionelle weiße Creme ersetzen.
+I0830 21:19:59.344961 139928637572928 decoding.py:152] Inference results INPUT: Previous tobacco vaccines failed because they contained antibodies .
+I0830 21:19:59.345115 139928637572928 decoding.py:167] Inference results OUTPUT: Previous Tabak Impfstoffe haben es versäumt, weil sie Antikörper enthalten.
+I0830 21:19:59.345244 139928637572928 decoding.py:152] Inference results INPUT: Yesterday the accused expressed regret for his behaviour .
+I0830 21:19:59.345374 139928637572928 decoding.py:167] Inference results OUTPUT: Gestern hat der vorgeworfene Bedauern für sein Verhalten geäußert.
+I0830 21:19:59.345494 139928637572928 decoding.py:152] Inference results INPUT: Later on , a sausage salad was provided .
+I0830 21:19:59.345604 139928637572928 decoding.py:167] Inference results OUTPUT: Später wurde ein sauberes Salat zur Verfügung gestellt.
+I0830 21:19:59.345726 139928637572928 decoding.py:152] Inference results INPUT: However , Swabian traditional clothing is also permitted .
+I0830 21:19:59.345875 139928637572928 decoding.py:167] Inference results OUTPUT: Es ist aber auch erlaubt, die traditionelle Bekleidung in der Schweiz zu genehmigen.
+I0830 21:19:59.346044 139928637572928 decoding.py:152] Inference results INPUT: So , a non ##AT##-##AT##  story , then .
+I0830 21:19:59.346222 139928637572928 decoding.py:167] Inference results OUTPUT: Also , a non #AT##-#AT# # # # # story , then .
+I0830 21:19:59.346363 139928637572928 decoding.py:152] Inference results INPUT: Salem : Johanna Rahner at the Ecumenical Discussion Forum
+I0830 21:19:59.346486 139928637572928 decoding.py:167] Inference results OUTPUT: Salem : Johanna Rahner im Ecumenischen Discussion Forum
+I0830 21:19:59.346588 139928637572928 decoding.py:152] Inference results INPUT: It was really daring what they did .
+I0830 21:19:59.346689 139928637572928 decoding.py:167] Inference results OUTPUT: Es war wirklich dunkel, was sie taten.
+I0830 21:19:59.346824 139928637572928 decoding.py:152] Inference results INPUT: NSA revelations boost corporate paranoia about state surveillance
+I0830 21:19:59.346953 139928637572928 decoding.py:167] Inference results OUTPUT: NSA entzieht die Konzerne paranoia zur staatlichen Überwachung.
+I0830 21:19:59.347079 139928637572928 decoding.py:152] Inference results INPUT: Mozambique security concerns mount as powerful personalities clash
+I0830 21:19:59.347240 139928637572928 decoding.py:167] Inference results OUTPUT: Mozambique-Sicherheit ist eine starke Persönlichkeit, die sich als mächtige Persönlichkeiten ausbreitet.
+I0830 21:19:59.347373 139928637572928 decoding.py:152] Inference results INPUT: Königsfeld : Small team gives a spirited performance
+I0830 21:19:59.347497 139928637572928 decoding.py:167] Inference results OUTPUT: Königsfeld : Small Team gibt eine geistige Leistung.
+I0830 21:19:59.347616 139928637572928 decoding.py:152] Inference results INPUT: The second person had to be carried .
+I0830 21:19:59.347717 139928637572928 decoding.py:167] Inference results OUTPUT: Die zweite Person musste durchgeführt werden .
+I0830 21:19:59.347850 139928637572928 decoding.py:152] Inference results INPUT: Their luck doesn &apos;t always hold out .
+I0830 21:19:59.347965 139928637572928 decoding.py:167] Inference results OUTPUT: Ihr luck doesn &apos;t immer out .
+I0830 21:19:59.348086 139928637572928 decoding.py:152] Inference results INPUT: Google is accused of infringing seven patents .
+I0830 21:19:59.348203 139928637572928 decoding.py:167] Inference results OUTPUT: Google wird beschuldigt, sieben Patente zu verletzen.
+I0830 21:19:59.348345 139928637572928 decoding.py:152] Inference results INPUT: Physical changes don &apos;t mean puberty is imminent
+I0830 21:19:59.348489 139928637572928 decoding.py:167] Inference results OUTPUT: Physikalische Veränderungen sind &apos;t mean puberty is imminent.
+I0830 21:19:59.348636 139928637572928 decoding.py:152] Inference results INPUT: Tony Abbott &apos;s daughters Frances and Bridget .
+I0830 21:19:59.348771 139928637572928 decoding.py:167] Inference results OUTPUT: Tony Abbott &apos;s daughters Frances and Bridget .
+I0830 21:19:59.348885 139928637572928 decoding.py:152] Inference results INPUT: The post is hardly ever emptied on Sundays
+I0830 21:19:59.348993 139928637572928 decoding.py:167] Inference results OUTPUT: Die Post wird kaum auf Sonntagstagen aufgenommen.
+I0830 21:19:59.349109 139928637572928 decoding.py:152] Inference results INPUT: An inquiry by the FDP confirmed this .
+I0830 21:19:59.349215 139928637572928 decoding.py:167] Inference results OUTPUT: Eine Untersuchung der FDP bestätigte das .
+I0830 21:19:59.349321 139928637572928 decoding.py:152] Inference results INPUT: My objective is to discovery the truth .
+I0830 21:19:59.349431 139928637572928 decoding.py:167] Inference results OUTPUT: Mein Ziel ist es, die Wahrheit zu entdecken.
+I0830 21:19:59.349578 139928637572928 decoding.py:152] Inference results INPUT: We &apos;ve got to remember who we are.&apos;
+I0830 21:19:59.349708 139928637572928 decoding.py:167] Inference results OUTPUT: Wir &apos;haben zu erinnern, wer wir sind.&apos;
+I0830 21:19:59.349838 139928637572928 decoding.py:152] Inference results INPUT: Freudenstadt : Quick moves take hosts by surprise
+I0830 21:19:59.349973 139928637572928 decoding.py:167] Inference results OUTPUT: Freudenstadt : Quick bewegt sich durch Überraschungen durch Überraschungen.
+I0830 21:19:59.350114 139928637572928 decoding.py:152] Inference results INPUT: CDC issues children &apos;s allergy guidelines for schools
+I0830 21:19:59.350252 139928637572928 decoding.py:167] Inference results OUTPUT: CDC-Themen Kinder &apos;s allergy guidelines for schools.
+I0830 21:19:59.350390 139928637572928 decoding.py:152] Inference results INPUT: Illmensee : Second mountain bike race enthuses participants
+I0830 21:19:59.350519 139928637572928 decoding.py:167] Inference results OUTPUT: Illmensee : Zweite Bergwanderwege begeistern Teilnehmer.
+I0830 21:19:59.350638 139928637572928 decoding.py:152] Inference results INPUT: Jumbo visits the home of Black Forest ham
+I0830 21:19:59.350751 139928637572928 decoding.py:167] Inference results OUTPUT: Jumbo besucht die Heimat des Schwarzwaldes.
+I0830 21:19:59.350856 139928637572928 decoding.py:152] Inference results INPUT: The issue will be resolved this evening .
+I0830 21:19:59.350950 139928637572928 decoding.py:167] Inference results OUTPUT: Die Frage wird heute Abend gelöst.
+I0830 21:19:59.351071 139928637572928 decoding.py:152] Inference results INPUT: Gender nonconforming boys now have special camp .
+I0830 21:19:59.351198 139928637572928 decoding.py:167] Inference results OUTPUT: Gender Nichtkonformierende Jungen haben jetzt spezielle Campingplätze .
+I0830 21:19:59.351311 139928637572928 decoding.py:152] Inference results INPUT: But at 38 , he committed suicide .
+I0830 21:19:59.351409 139928637572928 decoding.py:167] Inference results OUTPUT: Doch um 38 begann er Selbstmord .
+I0830 21:19:59.351520 139928637572928 decoding.py:152] Inference results INPUT: We are afraid it will encourage intervention .
+I0830 21:19:59.351637 139928637572928 decoding.py:167] Inference results OUTPUT: Wir fürchten, dass sie eine Intervention fördern wird.
+I0830 21:19:59.352030 139922820298496 decoding.py:675] Decoding batch 81
+I0830 21:19:59.946028 139928637572928 decoding.py:152] Inference results INPUT: Anyone visiting Cologne cannot miss the cathedral .
+I0830 21:19:59.946219 139928637572928 decoding.py:167] Inference results OUTPUT: Jeder Besuch in Köln kann die Kathedrale nicht verpassen.
+I0830 21:19:59.946342 139928637572928 decoding.py:152] Inference results INPUT: The latter story is now particularly significant .
+I0830 21:19:59.946440 139928637572928 decoding.py:167] Inference results OUTPUT: Die letztere Geschichte ist jetzt besonders wichtig.
+I0830 21:19:59.946547 139928637572928 decoding.py:152] Inference results INPUT: It is perfect , but it lies .
+I0830 21:19:59.946641 139928637572928 decoding.py:167] Inference results OUTPUT: Es ist perfekt, aber es liegt .
+I0830 21:19:59.946767 139928637572928 decoding.py:152] Inference results INPUT: Yesterday , Obama tweaked his original pledge .
+I0830 21:19:59.946886 139928637572928 decoding.py:167] Inference results OUTPUT: Gestern hat Obama seine ursprüngliche Versammlung verdoppelt.
+I0830 21:19:59.947029 139928637572928 decoding.py:152] Inference results INPUT: &quot; No , &quot; Mr Tripodi replied .
+I0830 21:19:59.947160 139928637572928 decoding.py:167] Inference results OUTPUT: &quot; Nein , &quot; Herr Tripodi antwortete .
+I0830 21:19:59.947277 139928637572928 decoding.py:152] Inference results INPUT: Definitely not between myself and Mr Obeid .
+I0830 21:19:59.947380 139928637572928 decoding.py:167] Inference results OUTPUT: Defizit nicht zwischen mir und Herrn Obeid .
+I0830 21:19:59.947497 139928637572928 decoding.py:152] Inference results INPUT: USA : Shots fired at Los Angeles Airport
+I0830 21:19:59.947609 139928637572928 decoding.py:167] Inference results OUTPUT: USA : Shots in Los Angeles Airport.
+I0830 21:19:59.947730 139928637572928 decoding.py:152] Inference results INPUT: Terminal 3 serves mainly small US airlines .
+I0830 21:19:59.947851 139928637572928 decoding.py:167] Inference results OUTPUT: Terminal 3 dient hauptsächlich kleinen US-Fluggesellschaften .
+I0830 21:19:59.947963 139928637572928 decoding.py:152] Inference results INPUT: Rapist in South Africa : two life sentences
+I0830 21:19:59.948073 139928637572928 decoding.py:167] Inference results OUTPUT: Rapist in Südafrika : zwei Menschenverstöße
+I0830 21:19:59.948205 139928637572928 decoding.py:152] Inference results INPUT: Pope Francis to name first cardinals in February
+I0830 21:19:59.948335 139928637572928 decoding.py:167] Inference results OUTPUT: Papst Francis, um die ersten Kardinals im Februar zu nennen.
+I0830 21:19:59.948436 139928637572928 decoding.py:152] Inference results INPUT: The technology is there to do it .
+I0830 21:19:59.948532 139928637572928 decoding.py:167] Inference results OUTPUT: Die Technologie besteht darin, es zu tun.
+I0830 21:19:59.948633 139928637572928 decoding.py:152] Inference results INPUT: New York City is looking into one .
+I0830 21:19:59.948719 139928637572928 decoding.py:167] Inference results OUTPUT: New York City sucht in eine .
+I0830 21:19:59.948827 139928637572928 decoding.py:152] Inference results INPUT: The concept is not a universal hit .
+I0830 21:19:59.948923 139928637572928 decoding.py:167] Inference results OUTPUT: Das Konzept ist kein universeller Hit .
+I0830 21:19:59.949034 139928637572928 decoding.py:152] Inference results INPUT: All tickets remain valid for these shows .
+I0830 21:19:59.949135 139928637572928 decoding.py:167] Inference results OUTPUT: Alle Tickets bleiben gültig für diese Shows .
+I0830 21:19:59.949266 139928637572928 decoding.py:152] Inference results INPUT: Falkenberg club makes for two wonderful evenings .
+I0830 21:19:59.949382 139928637572928 decoding.py:167] Inference results OUTPUT: Falkenberg Club macht zwei wunderschöne Abende.
+I0830 21:19:59.949487 139928637572928 decoding.py:152] Inference results INPUT: However , theoretically , it is possible .
+I0830 21:19:59.949580 139928637572928 decoding.py:167] Inference results OUTPUT: Dennoch ist es theoretisch möglich.
+I0830 21:19:59.949687 139928637572928 decoding.py:152] Inference results INPUT: This may include potential illegal spying activities .
+I0830 21:19:59.949788 139928637572928 decoding.py:167] Inference results OUTPUT: Dies kann potentielle illegale Aktivitäten umfassen.
+I0830 21:19:59.949901 139928637572928 decoding.py:152] Inference results INPUT: The evaluations were already made on Thursday .
+I0830 21:19:59.950006 139928637572928 decoding.py:167] Inference results OUTPUT: Die Bewertungen wurden bereits am Donnerstag gemacht.
+I0830 21:19:59.950127 139928637572928 decoding.py:152] Inference results INPUT: Traffic lights permanently red : observe waiting time
+I0830 21:19:59.950274 139928637572928 decoding.py:167] Inference results OUTPUT: Traffic Licht dauerhaft rot: Beobachten Sie die Zeit warten auf die Wartezeit.
+I0830 21:19:59.950393 139928637572928 decoding.py:152] Inference results INPUT: Rhenus Midgard has also invested highly in land
+I0830 21:19:59.950508 139928637572928 decoding.py:167] Inference results OUTPUT: Rhenus Midgard hat auch in Land hoch investiert.
+I0830 21:19:59.950620 139928637572928 decoding.py:152] Inference results INPUT: There are also plant alternatives to eggs .
+I0830 21:19:59.950721 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt auch Pflanzenarten für Eier .
+I0830 21:19:59.950846 139928637572928 decoding.py:152] Inference results INPUT: Oil extends drop toward $ 96 a barrel
+I0830 21:19:59.950954 139928637572928 decoding.py:167] Inference results OUTPUT: Das Öl erstreckt sich auf $ 96.
+I0830 21:19:59.951084 139928637572928 decoding.py:152] Inference results INPUT: Haslach : Scepticism visibly gives way to confidence
+I0830 21:19:59.951217 139928637572928 decoding.py:167] Inference results OUTPUT: Haslach : Der Sceptizismus ist sichtbar, um Vertrauen zu erlangen.
+I0830 21:19:59.951329 139928637572928 decoding.py:152] Inference results INPUT: The FAA ruling applies to American airlines .
+I0830 21:19:59.951435 139928637572928 decoding.py:167] Inference results OUTPUT: Die FAA-Entscheidung gilt für amerikanische Fluggesellschaften .
+I0830 21:19:59.951544 139928637572928 decoding.py:152] Inference results INPUT: It has not updated that figure since .
+I0830 21:19:59.951646 139928637572928 decoding.py:167] Inference results OUTPUT: Es hat diese Zahl nicht aktualisiert.
+I0830 21:19:59.951761 139928637572928 decoding.py:152] Inference results INPUT: Teams can practice from 10 : 00 a.m.
+I0830 21:19:59.951863 139928637572928 decoding.py:167] Inference results OUTPUT: Teams können von 10:00 Uhr praktizieren.
+I0830 21:19:59.951982 139928637572928 decoding.py:152] Inference results INPUT: The band plays lively polkas and marches .
+I0830 21:19:59.952096 139928637572928 decoding.py:167] Inference results OUTPUT: Die Band spielt lebhafte Polkas und Marchen .
+I0830 21:19:59.952210 139928637572928 decoding.py:152] Inference results INPUT: Another day , another independence scare story .
+I0830 21:19:59.952334 139928637572928 decoding.py:167] Inference results OUTPUT: Ein weiterer Tag , eine andere Unabhängigkeit spiegelt die Geschichte wider.
+I0830 21:19:59.952440 139928637572928 decoding.py:152] Inference results INPUT: The old basis of showing not telling .
+I0830 21:19:59.952537 139928637572928 decoding.py:167] Inference results OUTPUT: Die alte Basis, um nicht zu sagen .
+I0830 21:19:59.952675 139928637572928 decoding.py:152] Inference results INPUT: &quot; Possibly , &quot; Martin replied .
+I0830 21:19:59.952803 139928637572928 decoding.py:167] Inference results OUTPUT: &quot; Possibly , &quot; Martin antwortete .
+I0830 21:19:59.952911 139928637572928 decoding.py:152] Inference results INPUT: Business leaders are sceptical about this .
+I0830 21:19:59.953015 139928637572928 decoding.py:167] Inference results OUTPUT: Business-Führer sind skeptisch darüber.
+I0830 21:19:59.953132 139928637572928 decoding.py:152] Inference results INPUT: $ 325m rescue package for Tassie health
+I0830 21:19:59.953241 139928637572928 decoding.py:167] Inference results OUTPUT: $ 325m Rettungspaket für Tassie Gesundheit
+I0830 21:19:59.953577 139922820298496 decoding.py:675] Decoding batch 82
+I0830 21:20:01.207670 139928637572928 decoding.py:152] Inference results INPUT: Supreme Court upholds Obama health care law
+I0830 21:20:01.207840 139928637572928 decoding.py:167] Inference results OUTPUT: Der Oberste Gerichtshof hält Obama-Gesundheitsrecht.
+I0830 21:20:01.207970 139928637572928 decoding.py:152] Inference results INPUT: A pane of glass was shattered .
+I0830 21:20:01.208068 139928637572928 decoding.py:167] Inference results OUTPUT: Ein Glas wurde erschüttert .
+I0830 21:20:01.208183 139928637572928 decoding.py:152] Inference results INPUT: The USA still want to prosecute Snowden
+I0830 21:20:01.208291 139928637572928 decoding.py:167] Inference results OUTPUT: Die USA wollen nach wie vor Snowden verfolgen.
+I0830 21:20:01.208393 139928637572928 decoding.py:152] Inference results INPUT: There are a lot of patients .
+I0830 21:20:01.208478 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt viele Patienten .
+I0830 21:20:01.208579 139928637572928 decoding.py:152] Inference results INPUT: And I think about my father .
+I0830 21:20:01.208674 139928637572928 decoding.py:167] Inference results OUTPUT: Und ich denke an mein Vater .
+I0830 21:20:01.208783 139928637572928 decoding.py:152] Inference results INPUT: Psychosocial aspects are important , too .
+I0830 21:20:01.208874 139928637572928 decoding.py:167] Inference results OUTPUT: Auch Psychologen sind wichtig.
+I0830 21:20:01.208970 139928637572928 decoding.py:152] Inference results INPUT: It will still give away water .
+I0830 21:20:01.209058 139928637572928 decoding.py:167] Inference results OUTPUT: Es wird immer noch Wasser geben.
+I0830 21:20:01.209180 139928637572928 decoding.py:152] Inference results INPUT: Kenyan press outraged at controversial media law
+I0830 21:20:01.209338 139928637572928 decoding.py:167] Inference results OUTPUT: Kenianische Presse hat sich auf kontroverse Mediengesetze im Mediengesetz niedergelassen.
+I0830 21:20:01.209448 139928637572928 decoding.py:152] Inference results INPUT: Public office is about public service .
+I0830 21:20:01.209563 139928637572928 decoding.py:167] Inference results OUTPUT: Öffentliche Büros ist über den öffentlichen Dienst .
+I0830 21:20:01.209666 139928637572928 decoding.py:152] Inference results INPUT: What was the cause of death ?
+I0830 21:20:01.209766 139928637572928 decoding.py:167] Inference results OUTPUT: Was war die Ursache des Todes ?
+I0830 21:20:01.209868 139928637572928 decoding.py:152] Inference results INPUT: The entire ground floor suffered damage .
+I0830 21:20:01.209970 139928637572928 decoding.py:167] Inference results OUTPUT: Die gesamte Erde hat Schaden erlitten.
+I0830 21:20:01.210099 139928637572928 decoding.py:152] Inference results INPUT: An Obama voter &apos;s cry of despair
+I0830 21:20:01.210198 139928637572928 decoding.py:167] Inference results OUTPUT: Ein Obama-Wähler &apos;
+I0830 21:20:01.210298 139928637572928 decoding.py:152] Inference results INPUT: And then I close the book .
+I0830 21:20:01.210391 139928637572928 decoding.py:167] Inference results OUTPUT: Und dann schließe ich das Buch .
+I0830 21:20:01.210511 139928637572928 decoding.py:152] Inference results INPUT: Coulson used phone hacking to verify tip
+I0830 21:20:01.210644 139928637572928 decoding.py:167] Inference results OUTPUT: Coulson benutzte Telefon Hacking, um Tipps zu überprüfen.
+I0830 21:20:01.210753 139928637572928 decoding.py:152] Inference results INPUT: Does he know about phone hacking ?
+I0830 21:20:01.210841 139928637572928 decoding.py:167] Inference results OUTPUT: Wissen er über Telefon?
+I0830 21:20:01.210950 139928637572928 decoding.py:152] Inference results INPUT: UN hails new goals to tackle poverty
+I0830 21:20:01.211052 139928637572928 decoding.py:167] Inference results OUTPUT: Die UNO hat neue Ziele zur Bekämpfung der Armut.
+I0830 21:20:01.211156 139928637572928 decoding.py:152] Inference results INPUT: Networking between universities and companies is important
+I0830 21:20:01.211252 139928637572928 decoding.py:167] Inference results OUTPUT: Netze zwischen Universitäten und Unternehmen sind wichtig.
+I0830 21:20:01.211362 139928637572928 decoding.py:152] Inference results INPUT: Nonetheless , it is worth watching .
+I0830 21:20:01.211452 139928637572928 decoding.py:167] Inference results OUTPUT: Dennoch lohnt es sich.
+I0830 21:20:01.211628 139928637572928 decoding.py:152] Inference results INPUT: Living with a future ##AT##-##AT##  oriented perspective
+I0830 21:20:01.211823 139928637572928 decoding.py:167] Inference results OUTPUT: Vergleichen Sie mit einer Zukunft #AT#-#AT###### # # # orientierte Perspektive.
+I0830 21:20:01.212007 139928637572928 decoding.py:152] Inference results INPUT: Vienna Airport abolishes passenger call ##AT##-##AT##  outs
+I0830 21:20:01.212213 139928637572928 decoding.py:167] Inference results OUTPUT: Vienna Airport abolisiert Passagier Anrufe #AT#-#####AT# # outs # outs.
+I0830 21:20:01.212333 139928637572928 decoding.py:152] Inference results INPUT: British police serve Assange with extradition notice
+I0830 21:20:01.212464 139928637572928 decoding.py:167] Inference results OUTPUT: Die britische Polizei dient Assange mit Auslieferungsbemerkung.
+I0830 21:20:01.212581 139928637572928 decoding.py:152] Inference results INPUT: Worker falls from ladder : seriously injured
+I0830 21:20:01.212705 139928637572928 decoding.py:167] Inference results OUTPUT: Worker fällt von Ladder : ernsthafte Verletzungen verletzt.
+I0830 21:20:01.212812 139928637572928 decoding.py:152] Inference results INPUT: Council sets its sights on rail system
+I0830 21:20:01.212926 139928637572928 decoding.py:167] Inference results OUTPUT: Der Rat legt seinen Blick auf das Eisenbahnsystem fest.
+I0830 21:20:01.213043 139928637572928 decoding.py:152] Inference results INPUT: Wallis Simpson may have been intersex .
+I0830 21:20:01.213154 139928637572928 decoding.py:167] Inference results OUTPUT: Wallis Simpson mag intersex gewesen sein.
+I0830 21:20:01.213255 139928637572928 decoding.py:152] Inference results INPUT: What he found out was horrifying .
+I0830 21:20:01.213353 139928637572928 decoding.py:167] Inference results OUTPUT: Was er entdeckte, war schrecklich .
+I0830 21:20:01.213457 139928637572928 decoding.py:152] Inference results INPUT: The hearing adjourned until December 20 .
+I0830 21:20:01.213572 139928637572928 decoding.py:167] Inference results OUTPUT: Die Anhörung wurde bis zum 20. Dezember unterbrochen.
+I0830 21:20:01.213688 139928637572928 decoding.py:152] Inference results INPUT: Leg almost hacked off : Rocker retrial
+I0830 21:20:01.213792 139928637572928 decoding.py:167] Inference results OUTPUT: Leg fast hacked off : Rocker retrial
+I0830 21:20:01.213941 139928637572928 decoding.py:152] Inference results INPUT: Maintenance day at the small &apos; Engländerhütte&apos;
+I0830 21:20:01.214076 139928637572928 decoding.py:167] Inference results OUTPUT: Maintenance day at the small &apos; Englhütte&apos;
+I0830 21:20:01.214190 139928637572928 decoding.py:152] Inference results INPUT: This was reported by broadcaster SABC .
+I0830 21:20:01.214298 139928637572928 decoding.py:167] Inference results OUTPUT: Dies wurde durch Rundfunk SABC berichtet.
+I0830 21:20:01.214409 139928637572928 decoding.py:152] Inference results INPUT: The crime had caused nationwide horror .
+I0830 21:20:01.214522 139928637572928 decoding.py:167] Inference results OUTPUT: Das Verbrechen hatte natürlichen Horror verursacht.
+I0830 21:20:01.214627 139928637572928 decoding.py:152] Inference results INPUT: A black box in your car ?
+I0830 21:20:01.214731 139928637572928 decoding.py:167] Inference results OUTPUT: Ein schwarzer Box in Ihrem Auto ?
+I0830 21:20:01.214839 139928637572928 decoding.py:152] Inference results INPUT: Nevada has already completed a pilot .
+I0830 21:20:01.214941 139928637572928 decoding.py:167] Inference results OUTPUT: Nevada hat bereits einen Piloten abgeschlossen.
+I0830 21:20:01.215245 139921914328832 decoding.py:675] Decoding batch 83
+I0830 21:20:01.836513 139928637572928 decoding.py:152] Inference results INPUT: It was not something people wanted .
+I0830 21:20:01.836671 139928637572928 decoding.py:167] Inference results OUTPUT: Es war nicht etwas, was man wollte .
+I0830 21:20:01.836791 139928637572928 decoding.py:152] Inference results INPUT: Snowden may make further statements in Russia
+I0830 21:20:01.836904 139928637572928 decoding.py:167] Inference results OUTPUT: Snowden kann in Russland weitere Äußerungen machen.
+I0830 21:20:01.837013 139928637572928 decoding.py:152] Inference results INPUT: How does the solar system function ?
+I0830 21:20:01.837101 139928637572928 decoding.py:167] Inference results OUTPUT: Wie funktioniert das Solarsystem?
+I0830 21:20:01.837209 139928637572928 decoding.py:152] Inference results INPUT: Proposals that are in the running ...
+I0830 21:20:01.837300 139928637572928 decoding.py:167] Inference results OUTPUT: Proposals, die im Laufe ...
+I0830 21:20:01.837412 139928637572928 decoding.py:152] Inference results INPUT: Do the robots have other tasks ?
+I0830 21:20:01.837509 139928637572928 decoding.py:167] Inference results OUTPUT: Haben die Roboter andere Aufgaben ?
+I0830 21:20:01.837631 139928637572928 decoding.py:152] Inference results INPUT: Electricity to become more expensive in Pfullendorf
+I0830 21:20:01.837738 139928637572928 decoding.py:167] Inference results OUTPUT: Elektrizität in Pfullendorf zu teuer.
+I0830 21:20:01.837842 139928637572928 decoding.py:152] Inference results INPUT: Iran satisfied with the nuclear negotiations process
+I0830 21:20:01.838011 139928637572928 decoding.py:167] Inference results OUTPUT: Der Iran befriedigt mit dem Prozess der nuklearen Verhandlungen
+I0830 21:20:01.838155 139928637572928 decoding.py:152] Inference results INPUT: China plea paper &apos; to be overhauled&apos;
+I0830 21:20:01.838283 139928637572928 decoding.py:167] Inference results OUTPUT: China plea paper &apos; to be overhauled&apos;
+I0830 21:20:01.838417 139928637572928 decoding.py:152] Inference results INPUT: Finally , let &apos;s talk pumpkins .
+I0830 21:20:01.838530 139928637572928 decoding.py:167] Inference results OUTPUT: Und schließlich &apos;s talk pumpkins .
+I0830 21:20:01.838666 139928637572928 decoding.py:152] Inference results INPUT: Anger over Bali bomb plotter &apos;s sentence
+I0830 21:20:01.838787 139928637572928 decoding.py:167] Inference results OUTPUT: Anger over Bali bomb plotter &apos;s sentence
+I0830 21:20:01.838895 139928637572928 decoding.py:152] Inference results INPUT: Patek may yet appeal his sentence .
+I0830 21:20:01.838995 139928637572928 decoding.py:167] Inference results OUTPUT: Patek kann seinen Satz noch auffordern.
+I0830 21:20:01.839106 139928637572928 decoding.py:152] Inference results INPUT: An overview of milk and egg alternatives
+I0830 21:20:01.839211 139928637572928 decoding.py:167] Inference results OUTPUT: Eine Übersicht über Milch- und Eiweißalter
+I0830 21:20:01.839330 139928637572928 decoding.py:152] Inference results INPUT: Löffingen : Köpfler still the only candidate
+I0830 21:20:01.839450 139928637572928 decoding.py:167] Inference results OUTPUT: Löffingen : Köpfler immer noch der einzige Kandidat.
+I0830 21:20:01.839586 139928637572928 decoding.py:152] Inference results INPUT: Egypt swears in first freely elected president
+I0830 21:20:01.839715 139928637572928 decoding.py:167] Inference results OUTPUT: Ägypten verschwindet in erster Linie der gewählte Präsident des Landes.
+I0830 21:20:01.839817 139928637572928 decoding.py:152] Inference results INPUT: They are a great team together .
+I0830 21:20:01.839908 139928637572928 decoding.py:167] Inference results OUTPUT: Sie sind ein großes Team zusammen .
+I0830 21:20:01.840017 139928637572928 decoding.py:152] Inference results INPUT: The speaker will be Johanna Rahner .
+I0830 21:20:01.840113 139928637572928 decoding.py:167] Inference results OUTPUT: Der Redner wird Johanna Rahner sein.
+I0830 21:20:01.840218 139928637572928 decoding.py:152] Inference results INPUT: A kindergarten has found a private buyer
+I0830 21:20:01.840326 139928637572928 decoding.py:167] Inference results OUTPUT: Ein kindergarten hat einen privaten Käufer gefunden.
+I0830 21:20:01.840419 139928637572928 decoding.py:152] Inference results INPUT: But she is fine now .
+I0830 21:20:01.840502 139928637572928 decoding.py:167] Inference results OUTPUT: Aber sie ist jetzt schön .
+I0830 21:20:01.840614 139928637572928 decoding.py:152] Inference results INPUT: She was eating biscuits afterwards .
+I0830 21:20:01.840715 139928637572928 decoding.py:167] Inference results OUTPUT: Sie lebte nach dem Tod der Erde.
+I0830 21:20:01.840810 139928637572928 decoding.py:152] Inference results INPUT: Everything but the IT industry .
+I0830 21:20:01.840902 139928637572928 decoding.py:167] Inference results OUTPUT: Alles andere als die IT-Branche .
+I0830 21:20:01.840989 139928637572928 decoding.py:152] Inference results INPUT: It has always taken place .
+I0830 21:20:01.841068 139928637572928 decoding.py:167] Inference results OUTPUT: Es hat immer stattgefunden .
+I0830 21:20:01.841169 139928637572928 decoding.py:152] Inference results INPUT: Gechingen : Absolute protection not possible
+I0830 21:20:01.841265 139928637572928 decoding.py:167] Inference results OUTPUT: Gechingen : Absolute Schutz nicht möglich.
+I0830 21:20:01.841375 139928637572928 decoding.py:152] Inference results INPUT: Hoarding on the Bechtle plot painted
+I0830 21:20:01.841497 139928637572928 decoding.py:167] Inference results OUTPUT: Die Hoffnung auf das Bechtle-Plätzchen schmerzte.
+I0830 21:20:01.841604 139928637572928 decoding.py:152] Inference results INPUT: On the happiness of dreaming camels
+I0830 21:20:01.841696 139928637572928 decoding.py:167] Inference results OUTPUT: Zum Glück der Traumkammern
+I0830 21:20:01.841813 139928637572928 decoding.py:152] Inference results INPUT: Early puberty : Growing older sooner
+I0830 21:20:01.841925 139928637572928 decoding.py:167] Inference results OUTPUT: Frühere Pubertät : Die ältere der früheren Zeit.
+I0830 21:20:01.842035 139928637572928 decoding.py:152] Inference results INPUT: Australian woman appeals Thai jail time
+I0830 21:20:01.842152 139928637572928 decoding.py:167] Inference results OUTPUT: Die australische Frau appelliert an Thai-Jail-Zeit
+I0830 21:20:01.842270 139928637572928 decoding.py:152] Inference results INPUT: Gutach : Increased safety for pedestrians
+I0830 21:20:01.842379 139928637572928 decoding.py:167] Inference results OUTPUT: Gutach : Erhöhung der Sicherheit für Fußgänger
+I0830 21:20:01.842480 139928637572928 decoding.py:152] Inference results INPUT: It tastes pretty good though .
+I0830 21:20:01.842573 139928637572928 decoding.py:167] Inference results OUTPUT: Es schmeckt ziemlich gut .
+I0830 21:20:01.842676 139928637572928 decoding.py:152] Inference results INPUT: Mastering the struggle to perfection .
+I0830 21:20:01.842784 139928637572928 decoding.py:167] Inference results OUTPUT: Meisterwerke des Kampfes zu perfektionieren .
+I0830 21:20:01.842893 139928637572928 decoding.py:152] Inference results INPUT: Intersex children pose ethical dilemma .
+I0830 21:20:01.842995 139928637572928 decoding.py:167] Inference results OUTPUT: Intersex-Kinder stellen ethische Dilemma dar.
+I0830 21:20:01.843097 139928637572928 decoding.py:152] Inference results INPUT: Children need stability and certainty .
+I0830 21:20:01.843179 139928637572928 decoding.py:167] Inference results OUTPUT: Kinder brauchen Stabilität und Sicherheit .
+I0830 21:20:01.843280 139928637572928 decoding.py:152] Inference results INPUT: Tourism : Descent to the Romans
+I0830 21:20:01.843356 139928637572928 decoding.py:167] Inference results OUTPUT: Tourismus : Entspannung
+I0830 21:20:01.843664 139923004839680 decoding.py:675] Decoding batch 84
+I0830 21:20:02.344934 139928637572928 decoding.py:152] Inference results INPUT: Schulze has one more surprise .
+I0830 21:20:02.345083 139928637572928 decoding.py:167] Inference results OUTPUT: Schulze hat eine Überraschung .
+I0830 21:20:02.345200 139928637572928 decoding.py:152] Inference results INPUT: A master of science fiction .
+I0830 21:20:02.345290 139928637572928 decoding.py:167] Inference results OUTPUT: Ein Meister der Wissenschaft.
+I0830 21:20:02.345389 139928637572928 decoding.py:152] Inference results INPUT: It devises its own conditions .
+I0830 21:20:02.345465 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt eigene Bedingungen .
+I0830 21:20:02.345594 139928637572928 decoding.py:152] Inference results INPUT: Obama &apos;s Health Care Walk Back
+I0830 21:20:02.345672 139928637572928 decoding.py:167] Inference results OUTPUT: Obama &apos;
+I0830 21:20:02.345781 139928637572928 decoding.py:152] Inference results INPUT: Frankfurt parking fees to increase dramatically
+I0830 21:20:02.345890 139928637572928 decoding.py:167] Inference results OUTPUT: Die Frankfurter Parkplätze erhöhen sich dramatisch.
+I0830 21:20:02.345983 139928637572928 decoding.py:152] Inference results INPUT: I do not know why .
+I0830 21:20:02.346067 139928637572928 decoding.py:167] Inference results OUTPUT: Ich weiß nicht, warum .
+I0830 21:20:02.346180 139928637572928 decoding.py:152] Inference results INPUT: Tripodi denies being influenced by Obeid
+I0830 21:20:02.346284 139928637572928 decoding.py:167] Inference results OUTPUT: Tripodi wird von Obeid beeinflusst.
+I0830 21:20:02.346388 139928637572928 decoding.py:152] Inference results INPUT: The accused initially remained silent .
+I0830 21:20:02.346491 139928637572928 decoding.py:167] Inference results OUTPUT: Die Vorwürfe blieben ursprünglich silber.
+I0830 21:20:02.346609 139928637572928 decoding.py:152] Inference results INPUT: Car driver seriously injured in accident
+I0830 21:20:02.346731 139928637572928 decoding.py:167] Inference results OUTPUT: Der Autofahrer hat im Unfall ernsthafte Verletzungen im Unfall.
+I0830 21:20:02.346843 139928637572928 decoding.py:152] Inference results INPUT: Travellers screamed and children cried .
+I0830 21:20:02.346953 139928637572928 decoding.py:167] Inference results OUTPUT: Reisende schreiben Schreien und Kinder wurden beschrieben.
+I0830 21:20:02.347054 139928637572928 decoding.py:152] Inference results INPUT: There are now 201 cardinals .
+I0830 21:20:02.347141 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt jetzt 201 Kardinale .
+I0830 21:20:02.347241 139928637572928 decoding.py:152] Inference results INPUT: The tea party is aghast .
+I0830 21:20:02.347332 139928637572928 decoding.py:167] Inference results OUTPUT: Die Tee-Partei ist aghast .
+I0830 21:20:02.347434 139928637572928 decoding.py:152] Inference results INPUT: Town Council delighted with solid budget
+I0830 21:20:02.347547 139928637572928 decoding.py:167] Inference results OUTPUT: Der Rat der Stadt hat mit einem soliden Haushalt ausgezeichnet.
+I0830 21:20:02.347677 139928637572928 decoding.py:152] Inference results INPUT: Beautiful animals and delicious tarts entice
+I0830 21:20:02.347778 139928637572928 decoding.py:167] Inference results OUTPUT: Schöne Tiere und köstliche Tarife
+I0830 21:20:02.347912 139928637572928 decoding.py:152] Inference results INPUT: Haigerloch : Focus on the Abendmahlskirche
+I0830 21:20:02.348031 139928637572928 decoding.py:167] Inference results OUTPUT: Haigerloch : Focus auf der Abendmahlskirche
+I0830 21:20:02.348154 139928637572928 decoding.py:152] Inference results INPUT: I &apos;ve realised my wrongdoing .
+I0830 21:20:02.348262 139928637572928 decoding.py:167] Inference results OUTPUT: I &apos;ve realised my wrongdo .
+I0830 21:20:02.348373 139928637572928 decoding.py:152] Inference results INPUT: Halloween 2013 : By the Numbers
+I0830 21:20:02.348470 139928637572928 decoding.py:167] Inference results OUTPUT: Halloween 2013 : Mit den Nummern
+I0830 21:20:02.348581 139928637572928 decoding.py:152] Inference results INPUT: Music makes for an entertaining afternoon
+I0830 21:20:02.348676 139928637572928 decoding.py:167] Inference results OUTPUT: Music macht eine Unterhaltung Nachmittag.
+I0830 21:20:02.348782 139928637572928 decoding.py:152] Inference results INPUT: Where does this leave Scotland ?
+I0830 21:20:02.348866 139928637572928 decoding.py:167] Inference results OUTPUT: Wo bleibt das Schottland?
+I0830 21:20:02.348971 139928637572928 decoding.py:152] Inference results INPUT: Theology courses offer broad training .
+I0830 21:20:02.349076 139928637572928 decoding.py:167] Inference results OUTPUT: Theology Kurse bieten umfassende Ausbildung an.
+I0830 21:20:02.349171 139928637572928 decoding.py:152] Inference results INPUT: The throwaway society does not think
+I0830 21:20:02.349281 139928637572928 decoding.py:167] Inference results OUTPUT: Die schreckliche Gesellschaft glaubt nicht, dass sie nicht glaubt.
+I0830 21:20:02.349387 139928637572928 decoding.py:152] Inference results INPUT: Persons seriously injured following collision
+I0830 21:20:02.349530 139928637572928 decoding.py:167] Inference results OUTPUT: Menschen, die nach der Kollision ernsthaft verletzt werden, verletzen ernsthafte Verletzungen.
+I0830 21:20:02.349632 139928637572928 decoding.py:152] Inference results INPUT: The firefighters were amazing .
+I0830 21:20:02.349734 139928637572928 decoding.py:167] Inference results OUTPUT: Die Feuerwehrleute waren erstaunlich .
+I0830 21:20:02.349835 139928637572928 decoding.py:152] Inference results INPUT: The firefighters were brilliant .
+I0830 21:20:02.349930 139928637572928 decoding.py:167] Inference results OUTPUT: Die Feuerwehrleute waren brilliant .
+I0830 21:20:02.350018 139928637572928 decoding.py:152] Inference results INPUT: They then drove away .
+I0830 21:20:02.350097 139928637572928 decoding.py:167] Inference results OUTPUT: Sie fallen dann weg .
+I0830 21:20:02.350204 139928637572928 decoding.py:152] Inference results INPUT: Anja Schlichter managed the tournament
+I0830 21:20:02.350308 139928637572928 decoding.py:167] Inference results OUTPUT: Anja Schlichter hat das Turnier verwaltet.
+I0830 21:20:02.350399 139928637572928 decoding.py:152] Inference results INPUT: There are varying explanations .
+I0830 21:20:02.350483 139928637572928 decoding.py:167] Inference results OUTPUT: Es gibt unterschiedliche Erklärungen .
+I0830 21:20:02.350582 139928637572928 decoding.py:152] Inference results INPUT: Land Rover rally series announced
+I0830 21:20:02.350688 139928637572928 decoding.py:167] Inference results OUTPUT: Land Rover rally Serie hat angekündigt.
+I0830 21:20:02.350776 139928637572928 decoding.py:152] Inference results INPUT: What about the first ?
+I0830 21:20:02.350852 139928637572928 decoding.py:167] Inference results OUTPUT: Was ist zum ersten ?
+I0830 21:20:02.350957 139928637572928 decoding.py:152] Inference results INPUT: RBS suspends two forex traders
+I0830 21:20:02.351064 139928637572928 decoding.py:167] Inference results OUTPUT: RBS unterbricht zwei Prozentsatzhändler.
+I0830 21:20:02.351169 139928637572928 decoding.py:152] Inference results INPUT: Surgery rendered him infertile .
+I0830 21:20:02.351254 139928637572928 decoding.py:167] Inference results OUTPUT: Surgery hat ihn infiziert .
+I0830 21:20:02.351341 139928637572928 decoding.py:152] Inference results INPUT: The system slips up .
+I0830 21:20:02.351416 139928637572928 decoding.py:167] Inference results OUTPUT: Das System fährt .
+I0830 21:20:02.351749 139923138598656 decoding.py:675] Decoding batch 85
+I0830 21:20:03.078377 139928637572928 decoding.py:152] Inference results INPUT: Sayings come from the Bible
+I0830 21:20:03.078528 139928637572928 decoding.py:167] Inference results OUTPUT: Die Ergebnisse kommen aus der Bibel
+I0830 21:20:03.078641 139928637572928 decoding.py:152] Inference results INPUT: Pimp must go to prison
+I0830 21:20:03.078743 139928637572928 decoding.py:167] Inference results OUTPUT: Pimp muss ins Gefängnis gehen.
+I0830 21:20:03.078845 139928637572928 decoding.py:152] Inference results INPUT: This scores maximum points .
+I0830 21:20:03.078939 139928637572928 decoding.py:167] Inference results OUTPUT: Diese Punkte werden maximal angezeigt.
+I0830 21:20:03.079100 139928637572928 decoding.py:152] Inference results INPUT: Dog ##AT##-##AT##  lovers victorious
+I0830 21:20:03.079329 139928637572928 decoding.py:167] Inference results OUTPUT: Dog #AT#-#AT#-#AT# # # # # # # # Liebhaber Sieg Sieg Sieg Sieg.
+I0830 21:20:03.079422 139928637572928 decoding.py:152] Inference results INPUT: Television with standards ?
+I0830 21:20:03.079505 139928637572928 decoding.py:167] Inference results OUTPUT: Fernsehen mit Standards ?
+I0830 21:20:03.079627 139928637572928 decoding.py:152] Inference results INPUT: Revolutionary Sacred Music Factory
+I0830 21:20:03.079729 139928637572928 decoding.py:167] Inference results OUTPUT: Revolutionäre Sacred Music Factory
+I0830 21:20:03.079824 139928637572928 decoding.py:152] Inference results INPUT: A fantastic writer .
+I0830 21:20:03.079913 139928637572928 decoding.py:167] Inference results OUTPUT: Ein fantastischer Schriftsteller .
+I0830 21:20:03.080010 139928637572928 decoding.py:152] Inference results INPUT: The vehicles collided .
+I0830 21:20:03.080096 139928637572928 decoding.py:167] Inference results OUTPUT: Die Fahrzeuge kallidiert .
+I0830 21:20:03.080188 139928637572928 decoding.py:152] Inference results INPUT: Sleepless in New York
+I0830 21:20:03.080269 139928637572928 decoding.py:167] Inference results OUTPUT: Slowaken in New York
+I0830 21:20:03.080371 139928637572928 decoding.py:152] Inference results INPUT: Piercing beep disturbs residents
+I0830 21:20:03.080493 139928637572928 decoding.py:167] Inference results OUTPUT: Die Piercing Bier stören Einwohner in die Häuser.
+I0830 21:20:03.080592 139928637572928 decoding.py:152] Inference results INPUT: Highland Games in Kaltenhof
+I0830 21:20:03.080683 139928637572928 decoding.py:167] Inference results OUTPUT: Hochland-Spiele in Kaltenhof
+I0830 21:20:03.080779 139928637572928 decoding.py:152] Inference results INPUT: Endurance pays dividends
+I0830 21:20:03.080877 139928637572928 decoding.py:167] Inference results OUTPUT: Die Beendigung zahlt Differenzen.
+I0830 21:20:03.080967 139928637572928 decoding.py:152] Inference results INPUT: Built by experts
+I0830 21:20:03.081053 139928637572928 decoding.py:167] Inference results OUTPUT: Erfüllungsort von Experten
+I0830 21:20:03.081141 139928637572928 decoding.py:152] Inference results INPUT: Airport building evacuated
+I0830 21:20:03.081237 139928637572928 decoding.py:167] Inference results OUTPUT: Flughafengebäude bewertet den Flughafen.
+I0830 21:20:03.081329 139928637572928 decoding.py:152] Inference results INPUT: Distant worlds .
+I0830 21:20:03.081406 139928637572928 decoding.py:167] Inference results OUTPUT: Distant Welten .
+I0830 21:20:03.081483 139928637572928 decoding.py:152] Inference results INPUT: July .
+I0830 21:20:03.081547 139928637572928 decoding.py:167] Inference results OUTPUT: Juli .
+I0830 21:20:03.081625 139928637572928 decoding.py:152] Inference results INPUT: Killing .
+I0830 21:20:03.081693 139928637572928 decoding.py:167] Inference results OUTPUT: Killing .
+I0830 21:20:03.137544 139928637572928 decoding.py:520] Elapsed Time: 379.12970
+I0830 21:20:03.137650 139928637572928 decoding.py:524] Averaged Single Token Generation Time: 0.0009691 (time 376.8271477 count 388826)
+I0830 21:20:03.137691 139928637572928 decoding.py:532] Inference time 379.1297 seconds (Throughput = 7.2192 sentences/second)
+I0830 21:20:03.137725 139928637572928 decoding.py:542] Writing decodes into /home/chrisf/t2t_data/translation.de
+W0830 21:20:03.142515 139928637572928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:550: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+I0830 21:20:03.143104 139928637572928 decoding.py:992] Running decode hooks.
+W0830 21:20:03.143178 139928637572928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:998: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+I0830 21:20:03.143647 139928637572928 decoding.py:1008] Decode hooks done.
+WARNING: Logging before flag parsing goes to stderr.
+W0830 21:20:05.606826 140688980506432 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0830 21:20:05.607014 140688980506432 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0830 21:20:05.607151 140688980506432 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:18: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0830 21:20:05.607469 140688980506432 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:205: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+BLEU_uncased =  15.95
+BLEU_cased =  15.62

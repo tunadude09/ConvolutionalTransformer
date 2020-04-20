@@ -1,0 +1,259 @@
+nohup: ignoring input
+WARNING: Logging before flag parsing goes to stderr.
+W0928 08:30:32.039513 139654278321984 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0928 08:30:32.986756 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0928 08:30:34.081998 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0928 08:30:34.084613 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:27: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0928 08:30:34.084734 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:27: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0928 08:30:34.084889 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:28: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+I0928 08:30:34.085156 139654278321984 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+W0928 08:30:34.088462 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0928 08:30:34.088746 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0928 08:30:34.099249 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_datagen.py:204: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+I0928 08:30:34.099408 139654278321984 t2t_datagen.py:207] Generating problems:
+    translate:
+      * translate_ende_wmt32k
+W0928 08:30:34.099516 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_datagen.py:156: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0928 08:30:34.099908 139654278321984 t2t_datagen.py:280] Generating data for translate_ende_wmt32k.
+W0928 08:30:34.100221 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/translate.py:170: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+I0928 08:30:34.100317 139654278321984 translate.py:172] Skipping compile data, found files:
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-train.lang1
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-train.lang2
+I0928 08:30:34.100424 139654278321984 generator_utils.py:346] Found vocab file: /home/chrisf/t2t_data/vocab.translate_ende_wmt32k.32768.subwords
+W0928 08:30:34.100521 139654278321984 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+I0928 08:30:34.172891 139654278321984 generator_utils.py:153] Skipping generator because outputs files exists at ['/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00000-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00001-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00002-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00003-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00004-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00005-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00006-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00007-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00008-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00009-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00010-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00011-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00012-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00013-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00014-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00015-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00016-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00017-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00018-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00019-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00020-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00021-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00022-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00023-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00024-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00025-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00026-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00027-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00028-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00029-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00030-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00031-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00032-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00033-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00034-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00035-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00036-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00037-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00038-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00039-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00040-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00041-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00042-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00043-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00044-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00045-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00046-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00047-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00048-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00049-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00050-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00051-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00052-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00053-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00054-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00055-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00056-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00057-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00058-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00059-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00060-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00061-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00062-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00063-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00064-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00065-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00066-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00067-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00068-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00069-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00070-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00071-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00072-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00073-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00074-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00075-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00076-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00077-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00078-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00079-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00080-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00081-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00082-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00083-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00084-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00085-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00086-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00087-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00088-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00089-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00090-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00091-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00092-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00093-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00094-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00095-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00096-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00097-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00098-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00099-of-00100']
+I0928 08:30:34.175949 139654278321984 translate.py:172] Skipping compile data, found files:
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-dev.lang1
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-dev.lang2
+I0928 08:30:34.176119 139654278321984 generator_utils.py:346] Found vocab file: /home/chrisf/t2t_data/vocab.translate_ende_wmt32k.32768.subwords
+I0928 08:30:34.249296 139654278321984 generator_utils.py:153] Skipping generator because outputs files exists at ['/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-dev-00000-of-00001']
+I0928 08:30:34.251512 139654278321984 generator_utils.py:527] Skipping shuffle because output files exist
+WARNING: Logging before flag parsing goes to stderr.
+W0928 08:30:35.334689 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0928 08:30:35.646166 140064519259968 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0928 08:30:37.083822 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0928 08:30:37.084205 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0928 08:30:37.096890 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0928 08:30:37.097089 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0928 08:30:37.108159 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0928 08:30:37.130396 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0928 08:30:37.140719 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0928 08:30:37.148837 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0928 08:30:37.148929 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0928 08:30:37.535890 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:32: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0928 08:30:37.535998 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:32: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0928 08:30:37.536122 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:33: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+I0928 08:30:37.536402 140064519259968 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+I0928 08:30:37.538219 140064519259968 t2t_trainer.py:155] Found unparsed command-line arguments. Checking if any start with --hp_ and interpreting those as hparams settings.
+W0928 08:30:37.538345 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_trainer.py:165: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0928 08:30:37.538387 140064519259968 t2t_trainer.py:165] Found unknown flag: --allow_growth=True
+W0928 08:30:37.538633 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/hparams_lib.py:49: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0928 08:30:37.538748 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+W0928 08:30:37.539252 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0928 08:30:37.539347 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0928 08:30:37.539449 140064519259968 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0928 08:30:37.539541 140064519259968 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0928 08:30:37.539588 140064519259968 devices.py:76] schedule=train
+I0928 08:30:37.539625 140064519259968 devices.py:77] worker_gpu=1
+I0928 08:30:37.539658 140064519259968 devices.py:78] sync=False
+W0928 08:30:37.539691 140064519259968 devices.py:141] Schedule=train. Assuming that training is running on a single machine.
+I0928 08:30:37.539731 140064519259968 devices.py:170] datashard_devices: ['gpu:0']
+I0928 08:30:37.539816 140064519259968 devices.py:171] caching_devices: None
+I0928 08:30:37.539889 140064519259968 devices.py:172] ps_devices: ['gpu:0']
+W0928 08:30:37.540005 140064519259968 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+
+
+
+
+
+HPARAMS2!!
+
+
+
+
+
+Traceback (most recent call last):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer", line 33, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer", line 28, in main
+    t2t_trainer.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_trainer.py", line 409, in main
+    exp = exp_fn(create_run_config(hparams), hparams)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py", line 833, in experiment_fn
+    return create_experiment(run_config, hparams, *args, **kwargs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py", line 731, in create_experiment
+    use_guarantee_const_getter=use_guarantee_const_getter)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py", line 295, in create_estimator
+    model_name, hparams, decode_hparams=decode_hparams, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1404, in make_estimator_model_fn
+    model_cls = registry.model(model_name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/registry.py", line 254, in __getitem__
+    (key, self.name, display_list_by_prefix(sorted(self), 4)))
+KeyError: 'transformer_original_april2019_evolve_2 never registered with registry models. Available:\n     aligned:\n      * aligned\n    attention:\n      * attention_lm\n      * attention_lm_moe\n    autoencoder:\n      * autoencoder_autoregressive\n      * autoencoder_basic\n      * autoencoder_basic_discrete\n      * autoencoder_dual_discrete\n      * autoencoder_ordered_discrete\n      * autoencoder_residual\n      * autoencoder_residual_discrete\n      * autoencoder_residual_vae\n      * autoencoder_stacked\n    basic:\n      * basic_fc_relu\n    byte:\n      * byte_net\n    conv:\n      * conv_transformer_april2019\n    cycle:\n      * cycle_gan\n    dense:\n      * dense_bitwise_categorical_policy\n    diagonal:\n      * diagonal_neural_gpu\n    distillation:\n      * distillation\n    evolved:\n      * evolved_transformer\n    feed:\n      * feed_forward_categorical_policy\n      * feed_forward_cnn_small_categorical_policy\n      * feed_forward_cnn_small_categorical_policy_new\n    gene:\n      * gene_expression_conv\n    glow:\n      * glow\n    imagetransformer:\n      * imagetransformer\n    imagetransformer2d:\n      * imagetransformer2d\n    imagetransformer:\n      * imagetransformer_moe\n    img2img:\n      * img2img_transformer\n      * img2img_transformer_block_parallel\n    lstm:\n      * lstm_encoder\n      * lstm_seq2seq\n      * lstm_seq2seq_attention\n      * lstm_seq2seq_attention_bidirectional_encoder\n      * lstm_seq2seq_bidirectional_encoder\n    mtf:\n      * mtf_bitransformer\n      * mtf_image_transformer\n      * mtf_res_net\n      * mtf_transformer\n      * mtf_unitransformer\n    nas:\n      * nas_seq2_seq\n    neural:\n      * neural_gpu\n      * neural_queue_model\n      * neural_stack_model\n    next:\n      * next_frame_base\n      * next_frame_basic_deterministic\n      * next_frame_basic_recurrent\n      * next_frame_basic_stochastic\n      * next_frame_basic_stochastic_discrete\n      * next_frame_emily\n      * next_frame_epva\n      * next_frame_glow\n      * next_frame_savp\n      * next_frame_savp_rl\n      * next_frame_sv2p\n      * next_frame_sv2p_atari\n      * next_frame_sv2p_discrete\n      * next_frame_sv2p_legacy\n      * next_frame_sv2p_two_frames\n    random:\n      * random_policy\n    resnet:\n      * resnet\n    revnet:\n      * revnet\n    shake:\n      * shake_shake\n    similarity:\n      * similarity_transformer\n    slice:\n      * slice_net\n    sliced:\n      * sliced_gan\n    super:\n      * super_lm\n    text:\n      * text_cnn\n    transformer:\n      * transformer\n      * transformer_ae\n      * transformer_block_parallel\n      * transformer_encoder\n      * transformer_memory\n      * transformer_moe\n      * transformer_nat\n      * transformer_original_april2019\n      * transformer_original_april2019_evolve\n      * transformer_original_april2019_evolve2\n      * transformer_regressor\n      * transformer_revnet\n      * transformer_scorer\n      * transformer_sketch\n      * transformer_symshard\n    universal:\n      * universal_transformer\n      * universal_transformer_encoder\n    vqa:\n      * vqa_attention_baseline\n      * vqa_combined_self_attention\n      * vqa_iterative_combined_self_attention\n      * vqa_recurrent_self_attention\n      * vqa_self_attention\n      * vqa_simple_image_self_attention\n    xception:\n      * xception'
+WARNING: Logging before flag parsing goes to stderr.
+W0928 08:30:39.784436 139777746061120 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-avg-all:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0928 08:30:39.784601 139777746061120 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-avg-all:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0928 08:30:39.784697 139777746061120 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-avg-all:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0928 08:30:39.784993 139777746061120 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:52: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+W0928 08:30:39.785201 139777746061120 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:243: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+W0928 08:30:39.785531 139777746061120 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:297: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+I0928 08:30:39.785606 139777746061120 bleu_hook.py:299] Found 0 files with steps: 
+WARNING: Logging before flag parsing goes to stderr.
+W0928 08:30:40.726094 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0928 08:30:41.045505 139931998504768 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0928 08:30:42.523015 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0928 08:30:42.523282 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0928 08:30:42.535774 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0928 08:30:42.535905 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0928 08:30:42.547061 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0928 08:30:42.569634 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0928 08:30:42.579876 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0928 08:30:42.587703 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0928 08:30:42.587795 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0928 08:30:42.974081 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0928 08:30:42.974239 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0928 08:30:42.974383 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0928 08:30:42.974664 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0928 08:30:42.975043 139931998504768 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+W0928 08:30:42.977233 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:938: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0928 08:30:42.977326 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0928 08:30:43.047532 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0928 08:30:43.047749 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0928 08:30:43.047866 139931998504768 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0928 08:30:43.047968 139931998504768 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0928 08:30:43.048016 139931998504768 devices.py:76] schedule=continuous_train_and_eval
+I0928 08:30:43.048055 139931998504768 devices.py:77] worker_gpu=1
+I0928 08:30:43.048092 139931998504768 devices.py:78] sync=False
+W0928 08:30:43.048154 139931998504768 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/devices.py:139: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0928 08:30:43.048195 139931998504768 devices.py:141] Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+I0928 08:30:43.048294 139931998504768 devices.py:170] datashard_devices: ['gpu:0']
+I0928 08:30:43.048362 139931998504768 devices.py:171] caching_devices: None
+I0928 08:30:43.053327 139931998504768 devices.py:172] ps_devices: ['gpu:0']
+
+
+
+
+
+HPARAMS2!!
+
+
+
+
+
+Traceback (most recent call last):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 203, in main
+    use_tpu=FLAGS.use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py", line 295, in create_estimator
+    model_name, hparams, decode_hparams=decode_hparams, use_tpu=use_tpu)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py", line 1404, in make_estimator_model_fn
+    model_cls = registry.model(model_name)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/registry.py", line 254, in __getitem__
+    (key, self.name, display_list_by_prefix(sorted(self), 4)))
+KeyError: 'transformer_original_april2019_evolve_2 never registered with registry models. Available:\n     aligned:\n      * aligned\n    attention:\n      * attention_lm\n      * attention_lm_moe\n    autoencoder:\n      * autoencoder_autoregressive\n      * autoencoder_basic\n      * autoencoder_basic_discrete\n      * autoencoder_dual_discrete\n      * autoencoder_ordered_discrete\n      * autoencoder_residual\n      * autoencoder_residual_discrete\n      * autoencoder_residual_vae\n      * autoencoder_stacked\n    basic:\n      * basic_fc_relu\n    byte:\n      * byte_net\n    conv:\n      * conv_transformer_april2019\n    cycle:\n      * cycle_gan\n    dense:\n      * dense_bitwise_categorical_policy\n    diagonal:\n      * diagonal_neural_gpu\n    distillation:\n      * distillation\n    evolved:\n      * evolved_transformer\n    feed:\n      * feed_forward_categorical_policy\n      * feed_forward_cnn_small_categorical_policy\n      * feed_forward_cnn_small_categorical_policy_new\n    gene:\n      * gene_expression_conv\n    glow:\n      * glow\n    imagetransformer:\n      * imagetransformer\n    imagetransformer2d:\n      * imagetransformer2d\n    imagetransformer:\n      * imagetransformer_moe\n    img2img:\n      * img2img_transformer\n      * img2img_transformer_block_parallel\n    lstm:\n      * lstm_encoder\n      * lstm_seq2seq\n      * lstm_seq2seq_attention\n      * lstm_seq2seq_attention_bidirectional_encoder\n      * lstm_seq2seq_bidirectional_encoder\n    mtf:\n      * mtf_bitransformer\n      * mtf_image_transformer\n      * mtf_res_net\n      * mtf_transformer\n      * mtf_unitransformer\n    nas:\n      * nas_seq2_seq\n    neural:\n      * neural_gpu\n      * neural_queue_model\n      * neural_stack_model\n    next:\n      * next_frame_base\n      * next_frame_basic_deterministic\n      * next_frame_basic_recurrent\n      * next_frame_basic_stochastic\n      * next_frame_basic_stochastic_discrete\n      * next_frame_emily\n      * next_frame_epva\n      * next_frame_glow\n      * next_frame_savp\n      * next_frame_savp_rl\n      * next_frame_sv2p\n      * next_frame_sv2p_atari\n      * next_frame_sv2p_discrete\n      * next_frame_sv2p_legacy\n      * next_frame_sv2p_two_frames\n    random:\n      * random_policy\n    resnet:\n      * resnet\n    revnet:\n      * revnet\n    shake:\n      * shake_shake\n    similarity:\n      * similarity_transformer\n    slice:\n      * slice_net\n    sliced:\n      * sliced_gan\n    super:\n      * super_lm\n    text:\n      * text_cnn\n    transformer:\n      * transformer\n      * transformer_ae\n      * transformer_block_parallel\n      * transformer_encoder\n      * transformer_memory\n      * transformer_moe\n      * transformer_nat\n      * transformer_original_april2019\n      * transformer_original_april2019_evolve\n      * transformer_original_april2019_evolve2\n      * transformer_regressor\n      * transformer_revnet\n      * transformer_scorer\n      * transformer_sketch\n      * transformer_symshard\n    universal:\n      * universal_transformer\n      * universal_transformer_encoder\n    vqa:\n      * vqa_attention_baseline\n      * vqa_combined_self_attention\n      * vqa_iterative_combined_self_attention\n      * vqa_recurrent_self_attention\n      * vqa_self_attention\n      * vqa_simple_image_self_attention\n    xception:\n      * xception'
+WARNING: Logging before flag parsing goes to stderr.
+W0928 08:30:45.164945 140211449927488 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0928 08:30:45.165124 140211449927488 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0928 08:30:45.165216 140211449927488 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:18: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0928 08:30:45.165526 140211449927488 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:205: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+BLEU_uncased =   0.11
+BLEU_cased =   0.10

@@ -1,0 +1,1007 @@
+nohup: ignoring input
+WARNING: Logging before flag parsing goes to stderr.
+W0921 16:25:56.310239 140702549124928 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0921 16:25:57.260881 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0921 16:25:58.379330 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0921 16:25:58.381828 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:27: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0921 16:25:58.381931 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:27: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0921 16:25:58.382048 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:28: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+I0921 16:25:58.382411 140702549124928 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+W0921 16:25:58.385753 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0921 16:25:58.386041 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0921 16:25:58.389073 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_datagen.py:204: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+I0921 16:25:58.390320 140702549124928 t2t_datagen.py:207] Generating problems:
+    translate:
+      * translate_ende_wmt32k
+W0921 16:25:58.390407 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_datagen.py:156: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0921 16:25:58.390814 140702549124928 t2t_datagen.py:280] Generating data for translate_ende_wmt32k.
+W0921 16:25:58.391129 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/translate.py:170: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+I0921 16:25:58.391820 140702549124928 translate.py:172] Skipping compile data, found files:
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-train.lang1
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-train.lang2
+I0921 16:25:58.391919 140702549124928 generator_utils.py:346] Found vocab file: /home/chrisf/t2t_data/vocab.translate_ende_wmt32k.32768.subwords
+W0921 16:25:58.392017 140702549124928 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+I0921 16:25:58.471273 140702549124928 generator_utils.py:153] Skipping generator because outputs files exists at ['/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00000-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00001-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00002-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00003-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00004-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00005-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00006-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00007-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00008-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00009-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00010-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00011-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00012-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00013-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00014-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00015-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00016-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00017-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00018-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00019-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00020-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00021-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00022-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00023-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00024-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00025-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00026-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00027-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00028-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00029-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00030-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00031-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00032-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00033-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00034-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00035-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00036-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00037-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00038-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00039-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00040-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00041-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00042-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00043-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00044-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00045-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00046-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00047-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00048-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00049-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00050-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00051-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00052-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00053-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00054-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00055-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00056-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00057-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00058-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00059-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00060-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00061-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00062-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00063-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00064-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00065-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00066-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00067-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00068-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00069-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00070-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00071-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00072-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00073-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00074-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00075-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00076-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00077-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00078-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00079-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00080-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00081-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00082-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00083-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00084-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00085-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00086-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00087-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00088-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00089-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00090-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00091-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00092-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00093-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00094-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00095-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00096-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00097-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00098-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00099-of-00100']
+I0921 16:25:58.473779 140702549124928 translate.py:172] Skipping compile data, found files:
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-dev.lang1
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-dev.lang2
+I0921 16:25:58.473877 140702549124928 generator_utils.py:346] Found vocab file: /home/chrisf/t2t_data/vocab.translate_ende_wmt32k.32768.subwords
+I0921 16:25:58.544141 140702549124928 generator_utils.py:153] Skipping generator because outputs files exists at ['/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-dev-00000-of-00001']
+I0921 16:25:58.546256 140702549124928 generator_utils.py:527] Skipping shuffle because output files exist
+WARNING: Logging before flag parsing goes to stderr.
+W0921 16:25:59.617019 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0921 16:25:59.925437 140693085804352 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0921 16:26:01.333673 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0921 16:26:01.334037 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0921 16:26:01.346204 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0921 16:26:01.346380 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0921 16:26:01.357326 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0921 16:26:01.379144 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0921 16:26:01.389405 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0921 16:26:01.397144 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0921 16:26:01.397274 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0921 16:26:01.786518 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:32: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0921 16:26:01.786621 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:32: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0921 16:26:01.786721 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:33: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+I0921 16:26:01.787009 140693085804352 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+I0921 16:26:01.788397 140693085804352 t2t_trainer.py:155] Found unparsed command-line arguments. Checking if any start with --hp_ and interpreting those as hparams settings.
+W0921 16:26:01.788522 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_trainer.py:165: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0921 16:26:01.788564 140693085804352 t2t_trainer.py:165] Found unknown flag: --allow_growth=True
+W0921 16:26:01.788910 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/hparams_lib.py:49: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+I0921 16:26:01.788984 140693085804352 hparams_lib.py:64] Loading hparams from existing json /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/hparams.json
+W0921 16:26:01.789044 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/hparams_lib.py:65: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+I0921 16:26:01.790166 140693085804352 hparams_lib.py:86] Overwrite key batch_size: 1024 -> 2048
+I0921 16:26:01.790259 140693085804352 hparams_lib.py:86] Overwrite key conv_module_dilations: [[1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128]] -> [[1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128], [1, 2], [4, 8], [16, 32], [64, 128]]
+I0921 16:26:01.790313 140693085804352 hparams_lib.py:86] Overwrite key depthwise_sep: [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False] -> [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+I0921 16:26:01.790377 140693085804352 hparams_lib.py:86] Overwrite key num_hidden_layers: 32 -> 16
+W0921 16:26:01.790472 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+W0921 16:26:01.791028 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0921 16:26:01.791120 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0921 16:26:01.791216 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0921 16:26:01.791310 140693085804352 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0921 16:26:01.791353 140693085804352 devices.py:76] schedule=train
+I0921 16:26:01.791389 140693085804352 devices.py:77] worker_gpu=1
+I0921 16:26:01.791422 140693085804352 devices.py:78] sync=False
+W0921 16:26:01.791455 140693085804352 devices.py:141] Schedule=train. Assuming that training is running on a single machine.
+I0921 16:26:01.791493 140693085804352 devices.py:170] datashard_devices: ['gpu:0']
+I0921 16:26:01.791583 140693085804352 devices.py:171] caching_devices: None
+I0921 16:26:01.791652 140693085804352 devices.py:172] ps_devices: ['gpu:0']
+I0921 16:26:01.862063 140693085804352 estimator.py:209] Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7ff54620aa90>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_experimental_max_worker_delay_secs': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': 600, '_log_step_count_steps': 100, '_protocol': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+    global_jit_level: OFF
+  }
+}
+isolate_session_state: true
+, '_save_checkpoints_steps': None, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7ff54620ab10>}
+W0921 16:26:01.867189 140693085804352 model_fn.py:630] Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7ff546c8edd0>) includes params argument, but params are not passed to Estimator.
+W0921 16:26:01.877883 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+I0921 16:26:01.888328 140693085804352 problem.py:644] Reading data files from /home/chrisf/t2t_data/translate_ende_wmt32k-train*
+I0921 16:26:01.889649 140693085804352 problem.py:670] partition: 0 num_data_files: 100
+W0921 16:26:01.890985 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/problem.py:680: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0921 16:26:01.940579 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:275: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+W0921 16:26:02.010032 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:37: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0921 16:26:02.036990 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/data/experimental/ops/grouping.py:193: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0921 16:26:02.065888 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:231: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0921 16:26:02.072424 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:233: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+I0921 16:26:02.105213 140693085804352 estimator.py:1145] Calling model_fn.
+I0921 16:26:02.112582 140693085804352 t2t_model.py:2249] Setting T2TModel mode to 'train'
+W0921 16:26:02.157199 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:244: The name tf.summary.text is deprecated. Please use tf.compat.v1.summary.text instead.
+
+I0921 16:26:02.642430 140693085804352 api.py:255] Using variable initializer: uniform_unit_scaling
+I0921 16:26:02.903310 140693085804352 t2t_model.py:2249] Transforming feature 'inputs' with symbol_modality_33510_256.bottom
+I0921 16:26:02.988190 140693085804352 t2t_model.py:2249] Transforming feature 'targets' with symbol_modality_33510_256.targets_bottom
+I0921 16:26:02.995733 140693085804352 t2t_model.py:2249] Building model body
+W0921 16:26:03.013612 140693085804352 deprecation.py:506] From /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/Original_Transformer_T2TApril2019_evolve.py:2872: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0921 16:26:03.041744 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_layers.py:3077: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+W0921 16:26:03.371840 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_attention.py:1249: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+I0921 16:26:13.379234 140693085804352 t2t_model.py:2249] Transforming body output with symbol_modality_33510_256.top
+W0921 16:26:13.450391 140693085804352 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/learning_rate.py:120: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+I0921 16:26:13.451272 140693085804352 learning_rate.py:29] Base learning rate: 0.100000
+I0921 16:26:13.460115 140693085804352 optimize.py:338] Trainable Variables Total size: 49785344
+I0921 16:26:13.460318 140693085804352 optimize.py:338] Non-trainable variables Total size: 5
+I0921 16:26:13.460658 140693085804352 optimize.py:193] Using optimizer adam
+I0921 16:26:32.781371 140693085804352 estimator.py:1147] Done calling model_fn.
+I0921 16:26:32.782459 140693085804352 basic_session_run_hooks.py:541] Create CheckpointSaverHook.
+I0921 16:26:38.878575 140693085804352 monitored_session.py:240] Graph was finalized.
+2019-09-21 16:26:38.878778: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-09-21 16:26:38.901691: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3192000000 Hz
+2019-09-21 16:26:38.902844: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564f9d8880c0 executing computations on platform Host. Devices:
+2019-09-21 16:26:38.902889: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-21 16:26:38.904402: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-09-21 16:26:38.933647: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:26:38.933991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 16:26:38.934118: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 16:26:38.935063: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 16:26:38.936082: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 16:26:38.936239: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 16:26:38.937209: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 16:26:38.937740: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 16:26:38.939782: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 16:26:38.939861: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:26:38.940227: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:26:38.940529: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 16:26:38.940555: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 16:26:39.001971: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 16:26:39.002001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 16:26:39.002007: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 16:26:39.002118: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:26:39.002464: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:26:39.002779: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:26:39.003066: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:40] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2019-09-21 16:26:39.003089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10460 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-09-21 16:26:39.004338: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564fbd0f5e50 executing computations on platform CUDA. Devices:
+2019-09-21 16:26:39.004356: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+W0921 16:26:39.005693 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+I0921 16:26:39.006926 140693085804352 saver.py:1280] Restoring parameters from /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-100138
+W0921 16:26:43.396051 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1066: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-09-21 16:26:44.949251: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+I0921 16:26:45.104418 140693085804352 session_manager.py:500] Running local_init_op.
+I0921 16:26:45.615420 140693085804352 session_manager.py:502] Done running local_init_op.
+I0921 16:27:04.775430 140693085804352 basic_session_run_hooks.py:606] Saving checkpoints for 100138 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt.
+2019-09-21 16:27:30.556395: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 16:27:34.087049: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+I0921 16:27:36.347996 140693085804352 basic_session_run_hooks.py:262] loss = 2.3873808, step = 100138
+I0921 16:28:15.861859 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 2.53071
+I0921 16:28:15.862808 140693085804352 basic_session_run_hooks.py:260] loss = 1.6659385, step = 100238 (39.515 sec)
+I0921 16:28:33.900306 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.54371
+I0921 16:28:33.901166 140693085804352 basic_session_run_hooks.py:260] loss = 2.5900016, step = 100338 (18.038 sec)
+I0921 16:28:51.002211 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.8473
+I0921 16:28:51.003075 140693085804352 basic_session_run_hooks.py:260] loss = 2.5470474, step = 100438 (17.102 sec)
+I0921 16:29:08.164503 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.82673
+I0921 16:29:08.165374 140693085804352 basic_session_run_hooks.py:260] loss = 2.4817967, step = 100538 (17.162 sec)
+I0921 16:29:24.942409 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.96022
+I0921 16:29:24.943175 140693085804352 basic_session_run_hooks.py:260] loss = 2.024715, step = 100638 (16.778 sec)
+I0921 16:29:42.014953 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.85736
+I0921 16:29:42.015685 140693085804352 basic_session_run_hooks.py:260] loss = 2.0102003, step = 100738 (17.073 sec)
+I0921 16:29:59.216359 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.81348
+I0921 16:29:59.217331 140693085804352 basic_session_run_hooks.py:260] loss = 2.3395798, step = 100838 (17.202 sec)
+I0921 16:30:15.825717 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0207
+I0921 16:30:15.826496 140693085804352 basic_session_run_hooks.py:260] loss = 2.41895, step = 100938 (16.609 sec)
+I0921 16:30:32.462341 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.01084
+I0921 16:30:32.463278 140693085804352 basic_session_run_hooks.py:260] loss = 2.4126313, step = 101038 (16.637 sec)
+I0921 16:30:49.037530 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03311
+I0921 16:30:49.038495 140693085804352 basic_session_run_hooks.py:260] loss = 2.3396318, step = 101138 (16.575 sec)
+I0921 16:31:05.780940 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.9725
+I0921 16:31:05.781774 140693085804352 basic_session_run_hooks.py:260] loss = 1.6828016, step = 101238 (16.743 sec)
+I0921 16:31:22.529233 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.97076
+I0921 16:31:22.530275 140693085804352 basic_session_run_hooks.py:260] loss = 2.097548, step = 101338 (16.748 sec)
+I0921 16:31:39.108547 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03161
+I0921 16:31:39.109291 140693085804352 basic_session_run_hooks.py:260] loss = 2.1194785, step = 101438 (16.579 sec)
+I0921 16:31:55.699676 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02732
+I0921 16:31:55.700541 140693085804352 basic_session_run_hooks.py:260] loss = 2.1085594, step = 101538 (16.591 sec)
+I0921 16:32:12.275792 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03277
+I0921 16:32:12.276580 140693085804352 basic_session_run_hooks.py:260] loss = 2.550875, step = 101638 (16.576 sec)
+I0921 16:32:29.255723 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.8893
+I0921 16:32:29.256437 140693085804352 basic_session_run_hooks.py:260] loss = 1.8616118, step = 101738 (16.980 sec)
+I0921 16:32:46.001939 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.9715
+I0921 16:32:46.002694 140693085804352 basic_session_run_hooks.py:260] loss = 2.108596, step = 101838 (16.746 sec)
+I0921 16:33:02.589073 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02877
+I0921 16:33:02.590015 140693085804352 basic_session_run_hooks.py:260] loss = 2.7040856, step = 101938 (16.587 sec)
+I0921 16:33:19.156823 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03582
+I0921 16:33:19.157586 140693085804352 basic_session_run_hooks.py:260] loss = 2.4238544, step = 102038 (16.568 sec)
+I0921 16:33:35.621786 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0735
+I0921 16:33:35.622593 140693085804352 basic_session_run_hooks.py:260] loss = 2.3405476, step = 102138 (16.465 sec)
+I0921 16:33:52.057812 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0842
+I0921 16:33:52.058585 140693085804352 basic_session_run_hooks.py:260] loss = 2.1490853, step = 102238 (16.436 sec)
+I0921 16:34:08.791511 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.97596
+I0921 16:34:08.792297 140693085804352 basic_session_run_hooks.py:260] loss = 2.0931897, step = 102338 (16.734 sec)
+I0921 16:34:25.316349 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0515
+I0921 16:34:25.317235 140693085804352 basic_session_run_hooks.py:260] loss = 2.059139, step = 102438 (16.525 sec)
+I0921 16:34:41.882192 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03652
+I0921 16:34:41.883054 140693085804352 basic_session_run_hooks.py:260] loss = 3.053461, step = 102538 (16.566 sec)
+I0921 16:34:58.688693 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.95008
+I0921 16:34:58.689465 140693085804352 basic_session_run_hooks.py:260] loss = 1.9631217, step = 102638 (16.806 sec)
+I0921 16:35:15.295591 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02159
+I0921 16:35:15.296471 140693085804352 basic_session_run_hooks.py:260] loss = 2.6662579, step = 102738 (16.607 sec)
+I0921 16:35:31.870608 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03318
+I0921 16:35:31.871371 140693085804352 basic_session_run_hooks.py:260] loss = 2.1358342, step = 102838 (16.575 sec)
+I0921 16:35:48.902022 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.8715
+I0921 16:35:48.902797 140693085804352 basic_session_run_hooks.py:260] loss = 2.112842, step = 102938 (17.031 sec)
+I0921 16:36:05.416247 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05539
+I0921 16:36:05.417015 140693085804352 basic_session_run_hooks.py:260] loss = 1.8808502, step = 103038 (16.514 sec)
+I0921 16:36:22.245486 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.94204
+I0921 16:36:22.246648 140693085804352 basic_session_run_hooks.py:260] loss = 1.8962026, step = 103138 (16.830 sec)
+I0921 16:36:38.708611 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.07418
+I0921 16:36:38.709402 140693085804352 basic_session_run_hooks.py:260] loss = 1.9212784, step = 103238 (16.463 sec)
+I0921 16:36:55.145388 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.08392
+I0921 16:36:55.146193 140693085804352 basic_session_run_hooks.py:260] loss = 2.158735, step = 103338 (16.437 sec)
+I0921 16:37:11.405575 140693085804352 basic_session_run_hooks.py:606] Saving checkpoints for 103437 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt.
+W0921 16:37:11.778516 140693085804352 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+I0921 16:37:14.299370 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.22084
+I0921 16:37:14.300245 140693085804352 basic_session_run_hooks.py:260] loss = 2.4390087, step = 103438 (19.154 sec)
+I0921 16:37:30.947419 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.00671
+I0921 16:37:30.948268 140693085804352 basic_session_run_hooks.py:260] loss = 2.7183232, step = 103538 (16.648 sec)
+I0921 16:37:47.640798 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.9904
+I0921 16:37:47.641618 140693085804352 basic_session_run_hooks.py:260] loss = 2.4540362, step = 103638 (16.693 sec)
+I0921 16:38:04.185047 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0444
+I0921 16:38:04.186031 140693085804352 basic_session_run_hooks.py:260] loss = 2.5094647, step = 103738 (16.544 sec)
+I0921 16:38:20.772600 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02861
+I0921 16:38:20.773470 140693085804352 basic_session_run_hooks.py:260] loss = 1.9883214, step = 103838 (16.587 sec)
+I0921 16:38:37.362321 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02783
+I0921 16:38:37.363188 140693085804352 basic_session_run_hooks.py:260] loss = 1.9331986, step = 103938 (16.590 sec)
+I0921 16:38:53.885566 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05208
+I0921 16:38:53.886292 140693085804352 basic_session_run_hooks.py:260] loss = 2.9221156, step = 104038 (16.523 sec)
+I0921 16:39:10.379513 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.06283
+I0921 16:39:10.380511 140693085804352 basic_session_run_hooks.py:260] loss = 2.5499668, step = 104138 (16.494 sec)
+I0921 16:39:26.914460 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0478
+I0921 16:39:26.915314 140693085804352 basic_session_run_hooks.py:260] loss = 2.5430903, step = 104238 (16.535 sec)
+I0921 16:39:43.651596 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.97474
+I0921 16:39:43.652389 140693085804352 basic_session_run_hooks.py:260] loss = 2.1596553, step = 104338 (16.737 sec)
+I0921 16:40:00.289767 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.01028
+I0921 16:40:00.290542 140693085804352 basic_session_run_hooks.py:260] loss = 2.7065787, step = 104438 (16.638 sec)
+I0921 16:40:16.786949 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.06164
+I0921 16:40:16.787783 140693085804352 basic_session_run_hooks.py:260] loss = 2.880727, step = 104538 (16.497 sec)
+I0921 16:40:33.202913 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.09163
+I0921 16:40:33.203778 140693085804352 basic_session_run_hooks.py:260] loss = 2.4550893, step = 104638 (16.416 sec)
+I0921 16:40:49.915758 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.98342
+I0921 16:40:49.916946 140693085804352 basic_session_run_hooks.py:260] loss = 3.2995358, step = 104738 (16.713 sec)
+I0921 16:41:06.417758 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05987
+I0921 16:41:06.418617 140693085804352 basic_session_run_hooks.py:260] loss = 2.5326548, step = 104838 (16.502 sec)
+I0921 16:41:22.932484 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05521
+I0921 16:41:22.933626 140693085804352 basic_session_run_hooks.py:260] loss = 2.3061917, step = 104938 (16.515 sec)
+I0921 16:41:39.552046 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.017
+I0921 16:41:39.552947 140693085804352 basic_session_run_hooks.py:260] loss = 2.3893888, step = 105038 (16.619 sec)
+I0921 16:41:56.075656 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05195
+I0921 16:41:56.076366 140693085804352 basic_session_run_hooks.py:260] loss = 1.5459913, step = 105138 (16.523 sec)
+I0921 16:42:12.532107 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.07665
+I0921 16:42:12.533122 140693085804352 basic_session_run_hooks.py:260] loss = 3.0002704, step = 105238 (16.457 sec)
+I0921 16:42:28.975045 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.08164
+I0921 16:42:28.975968 140693085804352 basic_session_run_hooks.py:260] loss = 2.3452528, step = 105338 (16.443 sec)
+I0921 16:42:45.582550 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02137
+I0921 16:42:45.583621 140693085804352 basic_session_run_hooks.py:260] loss = 3.0576956, step = 105438 (16.608 sec)
+I0921 16:43:02.003011 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.08996
+I0921 16:43:02.003868 140693085804352 basic_session_run_hooks.py:260] loss = 2.0926874, step = 105538 (16.420 sec)
+I0921 16:43:18.472809 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.07172
+I0921 16:43:18.473661 140693085804352 basic_session_run_hooks.py:260] loss = 2.5647743, step = 105638 (16.470 sec)
+I0921 16:43:35.101814 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.01359
+I0921 16:43:35.102541 140693085804352 basic_session_run_hooks.py:260] loss = 2.449812, step = 105738 (16.629 sec)
+I0921 16:43:51.719954 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.01752
+I0921 16:43:51.720847 140693085804352 basic_session_run_hooks.py:260] loss = 2.0338504, step = 105838 (16.618 sec)
+I0921 16:44:08.285126 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03676
+I0921 16:44:08.285892 140693085804352 basic_session_run_hooks.py:260] loss = 1.7984482, step = 105938 (16.565 sec)
+I0921 16:44:24.854539 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03522
+I0921 16:44:24.855853 140693085804352 basic_session_run_hooks.py:260] loss = 2.1175377, step = 106038 (16.570 sec)
+I0921 16:44:41.506265 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.00538
+I0921 16:44:41.507251 140693085804352 basic_session_run_hooks.py:260] loss = 2.2785301, step = 106138 (16.651 sec)
+I0921 16:44:58.000455 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.06274
+I0921 16:44:58.001192 140693085804352 basic_session_run_hooks.py:260] loss = 2.3454144, step = 106238 (16.494 sec)
+I0921 16:45:14.508427 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05768
+I0921 16:45:14.509346 140693085804352 basic_session_run_hooks.py:260] loss = 2.2628982, step = 106338 (16.508 sec)
+I0921 16:45:31.187458 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.99555
+I0921 16:45:31.188292 140693085804352 basic_session_run_hooks.py:260] loss = 2.1808228, step = 106438 (16.679 sec)
+I0921 16:45:47.612715 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.08819
+I0921 16:45:47.613791 140693085804352 basic_session_run_hooks.py:260] loss = 2.78271, step = 106538 (16.425 sec)
+I0921 16:46:04.165529 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.04127
+I0921 16:46:04.166465 140693085804352 basic_session_run_hooks.py:260] loss = 2.6443176, step = 106638 (16.553 sec)
+I0921 16:46:20.629878 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.07373
+I0921 16:46:20.630875 140693085804352 basic_session_run_hooks.py:260] loss = 2.7373598, step = 106738 (16.464 sec)
+I0921 16:46:37.374007 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.97224
+I0921 16:46:37.374827 140693085804352 basic_session_run_hooks.py:260] loss = 1.6459162, step = 106838 (16.744 sec)
+I0921 16:46:53.884158 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05688
+I0921 16:46:53.884993 140693085804352 basic_session_run_hooks.py:260] loss = 2.6514373, step = 106938 (16.510 sec)
+I0921 16:47:10.413323 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.04991
+I0921 16:47:10.414187 140693085804352 basic_session_run_hooks.py:260] loss = 2.2156434, step = 107038 (16.529 sec)
+I0921 16:47:11.534793 140693085804352 basic_session_run_hooks.py:606] Saving checkpoints for 107046 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt.
+I0921 16:47:29.477051 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.24556
+I0921 16:47:29.477917 140693085804352 basic_session_run_hooks.py:260] loss = 2.0206914, step = 107138 (19.064 sec)
+I0921 16:47:46.097849 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.01656
+I0921 16:47:46.098655 140693085804352 basic_session_run_hooks.py:260] loss = 2.7432592, step = 107238 (16.621 sec)
+I0921 16:48:02.614464 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05451
+I0921 16:48:02.615482 140693085804352 basic_session_run_hooks.py:260] loss = 2.0741308, step = 107338 (16.517 sec)
+I0921 16:48:19.104396 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.06431
+I0921 16:48:19.105289 140693085804352 basic_session_run_hooks.py:260] loss = 2.3116126, step = 107438 (16.490 sec)
+I0921 16:48:35.755801 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0055
+I0921 16:48:35.756695 140693085804352 basic_session_run_hooks.py:260] loss = 1.4904724, step = 107538 (16.651 sec)
+I0921 16:48:52.291512 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.04753
+I0921 16:48:52.292625 140693085804352 basic_session_run_hooks.py:260] loss = 2.2460744, step = 107638 (16.536 sec)
+I0921 16:49:08.680543 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.10163
+I0921 16:49:08.681498 140693085804352 basic_session_run_hooks.py:260] loss = 2.6035671, step = 107738 (16.389 sec)
+I0921 16:49:25.273954 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02649
+I0921 16:49:25.274804 140693085804352 basic_session_run_hooks.py:260] loss = 2.0378253, step = 107838 (16.593 sec)
+I0921 16:49:41.870323 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.02541
+I0921 16:49:41.871318 140693085804352 basic_session_run_hooks.py:260] loss = 2.0889218, step = 107938 (16.597 sec)
+I0921 16:49:58.373512 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05944
+I0921 16:49:58.374460 140693085804352 basic_session_run_hooks.py:260] loss = 1.7246532, step = 108038 (16.503 sec)
+I0921 16:50:14.931082 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03953
+I0921 16:50:14.932151 140693085804352 basic_session_run_hooks.py:260] loss = 2.5363004, step = 108138 (16.558 sec)
+I0921 16:50:31.455933 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05149
+I0921 16:50:31.456874 140693085804352 basic_session_run_hooks.py:260] loss = 2.6268034, step = 108238 (16.525 sec)
+I0921 16:50:47.940707 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0662
+I0921 16:50:47.941540 140693085804352 basic_session_run_hooks.py:260] loss = 2.1342897, step = 108338 (16.485 sec)
+I0921 16:51:04.433899 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.06311
+I0921 16:51:04.434916 140693085804352 basic_session_run_hooks.py:260] loss = 2.238539, step = 108438 (16.493 sec)
+I0921 16:51:20.890788 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.07648
+I0921 16:51:20.891522 140693085804352 basic_session_run_hooks.py:260] loss = 2.3370962, step = 108538 (16.457 sec)
+I0921 16:51:37.468494 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0322
+I0921 16:51:37.469315 140693085804352 basic_session_run_hooks.py:260] loss = 2.6367466, step = 108638 (16.578 sec)
+I0921 16:51:54.070139 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0235
+I0921 16:51:54.070878 140693085804352 basic_session_run_hooks.py:260] loss = 1.910447, step = 108738 (16.602 sec)
+I0921 16:52:10.603086 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.04853
+I0921 16:52:10.604001 140693085804352 basic_session_run_hooks.py:260] loss = 1.6970919, step = 108838 (16.533 sec)
+I0921 16:52:27.266994 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.00099
+I0921 16:52:27.267719 140693085804352 basic_session_run_hooks.py:260] loss = 1.5823299, step = 108938 (16.664 sec)
+I0921 16:52:43.765434 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.06118
+I0921 16:52:43.766239 140693085804352 basic_session_run_hooks.py:260] loss = 1.8224108, step = 109038 (16.499 sec)
+I0921 16:53:00.345561 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.03131
+I0921 16:53:00.346326 140693085804352 basic_session_run_hooks.py:260] loss = 2.0609002, step = 109138 (16.580 sec)
+I0921 16:53:16.982284 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0108
+I0921 16:53:16.983160 140693085804352 basic_session_run_hooks.py:260] loss = 2.0157504, step = 109238 (16.637 sec)
+I0921 16:53:33.500729 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.05384
+I0921 16:53:33.501726 140693085804352 basic_session_run_hooks.py:260] loss = 2.3598046, step = 109338 (16.519 sec)
+I0921 16:53:49.905505 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.09578
+I0921 16:53:49.906295 140693085804352 basic_session_run_hooks.py:260] loss = 1.9642062, step = 109438 (16.405 sec)
+I0921 16:54:06.498591 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0266
+I0921 16:54:06.499359 140693085804352 basic_session_run_hooks.py:260] loss = 2.380215, step = 109538 (16.593 sec)
+I0921 16:54:23.340822 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.93746
+I0921 16:54:23.341707 140693085804352 basic_session_run_hooks.py:260] loss = 2.0593655, step = 109638 (16.842 sec)
+I0921 16:54:40.043534 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 5.98705
+I0921 16:54:40.044296 140693085804352 basic_session_run_hooks.py:260] loss = 2.2129316, step = 109738 (16.703 sec)
+I0921 16:54:56.580193 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.04717
+I0921 16:54:56.580951 140693085804352 basic_session_run_hooks.py:260] loss = 2.1909106, step = 109838 (16.537 sec)
+I0921 16:55:13.046785 140693085804352 basic_session_run_hooks.py:692] global_step/sec: 6.0729
+I0921 16:55:13.047629 140693085804352 basic_session_run_hooks.py:260] loss = 2.8865058, step = 109938 (16.467 sec)
+I0921 16:55:23.177946 140693085804352 basic_session_run_hooks.py:606] Saving checkpoints for 110000 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt.
+I0921 16:55:26.168575 140693085804352 estimator.py:368] Loss for final step: 2.0217974.
+
+
+
+
+
+HPARAMS2!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS: 
+49785344
+
+
+WARNING: Logging before flag parsing goes to stderr.
+W0921 16:55:32.578537 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-avg-all:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0921 16:55:32.578665 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-avg-all:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0921 16:55:32.578828 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-avg-all:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0921 16:55:32.579106 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:52: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+W0921 16:55:32.579217 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:243: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+W0921 16:55:32.581219 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:297: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+I0921 16:55:32.581286 140043912173376 bleu_hook.py:299] Found 20 files with steps: 43202, 46830, 50000, 53305, 56907, 60515, 64094, 67699, 71306, 74902, 78511, 82117, 85724, 89333, 92943, 96551, 100138, 103437, 107046, 110000
+I0921 16:55:32.714759 140043912173376 t2t_avg_all.py:71] Loading [1]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-43202
+I0921 16:55:34.178266 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-43202
+W0921 16:55:34.178430 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:84: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0921 16:55:34.186860 140043912173376 deprecation.py:506] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0921 16:55:41.536667 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:85: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0921 16:55:42.137183 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:86: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+W0921 16:55:42.840703 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:92: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0921 16:55:42.842672 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:94: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0921 16:55:42.842753 140043912173376 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_avg_all.py:94: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+I0921 16:55:43.647168 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-43202
+2019-09-21 16:55:43.647942: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-09-21 16:55:43.676787: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.677199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 16:55:43.678157: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 16:55:43.682939: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 16:55:43.685558: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 16:55:43.688376: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 16:55:43.692453: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 16:55:43.693932: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 16:55:43.700254: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 16:55:43.700363: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.700717: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.701014: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 16:55:43.701213: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-09-21 16:55:43.725677: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3192000000 Hz
+2019-09-21 16:55:43.726325: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5634e2932480 executing computations on platform Host. Devices:
+2019-09-21 16:55:43.726342: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-21 16:55:43.726452: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.726802: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 16:55:43.726826: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 16:55:43.726835: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 16:55:43.726843: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 16:55:43.726857: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 16:55:43.726866: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 16:55:43.726873: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 16:55:43.726881: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 16:55:43.726914: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.727263: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.727602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 16:55:43.727624: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 16:55:43.799717: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 16:55:43.799746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 16:55:43.799752: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 16:55:43.799851: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.800184: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.800492: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 16:55:43.800777: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:40] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2019-09-21 16:55:43.800798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-09-21 16:55:43.802119: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5634e395c7d0 executing computations on platform CUDA. Devices:
+2019-09-21 16:55:43.802132: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2019-09-21 16:55:47.979992: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+I0921 17:01:01.065427 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-43202
+I0921 17:01:06.479276 140043912173376 t2t_avg_all.py:71] Loading [2]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-46830
+I0921 17:01:10.472637 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-46830
+I0921 17:01:20.039878 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-46830
+2019-09-21 17:01:20.040327: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:01:20.040677: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:01:20.040718: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:01:20.040728: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:01:20.040749: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:01:20.040756: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:01:20.040778: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:01:20.040787: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:01:20.040795: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:01:20.040854: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:01:20.041196: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:01:20.041567: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:01:20.041602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:01:20.041608: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:01:20.041613: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:01:20.041674: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:01:20.041996: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:01:20.042342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:06:34.846494 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-46830
+I0921 17:06:39.668015 140043912173376 t2t_avg_all.py:71] Loading [3]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-50000
+I0921 17:06:40.897911 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-50000
+I0921 17:06:51.069813 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-50000
+2019-09-21 17:06:51.070258: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:06:51.070597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:06:51.070639: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:06:51.070648: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:06:51.070669: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:06:51.070692: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:06:51.070699: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:06:51.070707: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:06:51.070715: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:06:51.070776: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:06:51.071076: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:06:51.071368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:06:51.071402: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:06:51.071408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:06:51.071412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:06:51.071471: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:06:51.071778: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:06:51.072128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:12:10.061874 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-50000
+I0921 17:12:15.080253 140043912173376 t2t_avg_all.py:71] Loading [4]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-53305
+I0921 17:12:15.701552 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-53305
+I0921 17:12:25.663760 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-53305
+2019-09-21 17:12:25.664160: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:12:25.664471: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:12:25.664504: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:12:25.664517: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:12:25.664529: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:12:25.664540: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:12:25.664551: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:12:25.664562: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:12:25.664575: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:12:25.664611: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:12:25.664899: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:12:25.665166: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:12:25.665187: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:12:25.665194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:12:25.665207: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:12:25.665256: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:12:25.665636: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:12:25.666067: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:17:43.441792 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-53305
+I0921 17:17:48.108712 140043912173376 t2t_avg_all.py:71] Loading [5]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-56907
+I0921 17:17:48.665697 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-56907
+I0921 17:17:58.429289 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-56907
+2019-09-21 17:17:58.429684: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:17:58.429994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:17:58.430020: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:17:58.430029: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:17:58.430037: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:17:58.430045: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:17:58.430052: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:17:58.430060: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:17:58.430068: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:17:58.430101: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:17:58.430391: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:17:58.430666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:17:58.430685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:17:58.430690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:17:58.430694: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:17:58.430739: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:17:58.431030: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:17:58.431306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:23:20.256615 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-56907
+I0921 17:23:25.753525 140043912173376 t2t_avg_all.py:71] Loading [6]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-60515
+I0921 17:23:26.365395 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-60515
+I0921 17:23:35.948096 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-60515
+2019-09-21 17:23:35.948534: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:23:35.948906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:23:35.948982: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:23:35.948993: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:23:35.949020: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:23:35.949030: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:23:35.949039: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:23:35.949061: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:23:35.949070: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:23:35.949112: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:23:35.949465: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:23:35.949727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:23:35.949747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:23:35.949752: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:23:35.949758: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:23:35.949803: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:23:35.950086: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:23:35.950354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:28:55.007462 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-60515
+I0921 17:29:00.647756 140043912173376 t2t_avg_all.py:71] Loading [7]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-64094
+I0921 17:29:01.836108 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-64094
+I0921 17:29:11.464525 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-64094
+2019-09-21 17:29:11.464986: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:29:11.465322: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:29:11.465390: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:29:11.465401: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:29:11.465423: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:29:11.465447: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:29:11.465462: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:29:11.465471: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:29:11.465480: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:29:11.465556: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:29:11.465903: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:29:11.466172: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:29:11.466191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:29:11.466197: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:29:11.466202: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:29:11.466248: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:29:11.466540: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:29:11.466857: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:34:31.236726 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-64094
+I0921 17:34:36.404522 140043912173376 t2t_avg_all.py:71] Loading [8]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-67699
+I0921 17:34:37.908607 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-67699
+I0921 17:34:48.085715 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-67699
+2019-09-21 17:34:48.086207: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:34:48.086541: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:34:48.086582: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:34:48.086598: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:34:48.086620: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:34:48.086643: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:34:48.086651: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:34:48.086659: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:34:48.086667: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:34:48.086727: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:34:48.087026: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:34:48.087319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:34:48.087354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:34:48.087362: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:34:48.087367: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:34:48.087425: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:34:48.087741: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:34:48.088103: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:40:06.693266 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-67699
+I0921 17:40:12.489014 140043912173376 t2t_avg_all.py:71] Loading [9]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-71306
+I0921 17:40:13.889453 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-71306
+I0921 17:40:23.985570 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-71306
+2019-09-21 17:40:23.986010: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:40:23.986354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:40:23.986399: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:40:23.986408: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:40:23.986429: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:40:23.986451: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:40:23.986459: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:40:23.986467: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:40:23.986475: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:40:23.986508: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:40:23.986835: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:40:23.987127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:40:23.987165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:40:23.987171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:40:23.987175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:40:23.987250: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:40:23.987569: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:40:23.987888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+I0921 17:45:44.266034 140043912173376 t2t_avg_all.py:102] Storing to /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-71306
+I0921 17:45:49.469733 140043912173376 t2t_avg_all.py:71] Loading [10]: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/model.ckpt-74902
+I0921 17:45:50.929658 140043912173376 t2t_avg_all.py:81] Averaging /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-74902
+I0921 17:46:00.811299 140043912173376 t2t_avg_all.py:96] Running session for /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-74902
+2019-09-21 17:46:00.811755: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:46:00.812060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:46:00.812088: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:46:00.812099: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:46:00.812111: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:46:00.812122: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:46:00.812133: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:46:00.812145: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:46:00.812155: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:46:00.812190: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:46:00.812479: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:46:00.812745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:46:00.812765: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:46:00.812772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:46:00.812778: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:46:00.812825: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:46:00.813129: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:46:00.813522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9616 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+./run_transformer_april2019_prototype_2_revisited.sh: line 110:  7731 Terminated              t2t-avg-all --model_dir=$TRAIN_DIR --output_dir=$TRAIN_DIR/avg_models/$NOTE-last5.ckpt --n=1
+WARNING: Logging before flag parsing goes to stderr.
+W0921 17:47:21.975538 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0921 17:47:23.244891 140157902419776 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0921 17:47:24.697958 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0921 17:47:24.698663 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0921 17:47:24.766935 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W0921 17:47:24.767281 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W0921 17:47:24.808568 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W0921 17:47:24.893014 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0921 17:47:24.930518 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W0921 17:47:24.958578 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W0921 17:47:24.958713 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W0921 17:47:25.998858 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0921 17:47:25.999051 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:16: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0921 17:47:25.999209 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder:17: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0921 17:47:25.999778 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I0921 17:47:26.000370 140157902419776 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+W0921 17:47:26.005826 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:938: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0921 17:47:26.005983 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0921 17:47:26.081698 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0921 17:47:26.081855 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0921 17:47:26.081963 140157902419776 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I0921 17:47:26.082059 140157902419776 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I0921 17:47:26.082101 140157902419776 devices.py:76] schedule=continuous_train_and_eval
+I0921 17:47:26.082135 140157902419776 devices.py:77] worker_gpu=1
+I0921 17:47:26.082166 140157902419776 devices.py:78] sync=False
+W0921 17:47:26.082227 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/devices.py:139: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W0921 17:47:26.082274 140157902419776 devices.py:141] Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+I0921 17:47:26.082393 140157902419776 devices.py:170] datashard_devices: ['gpu:0']
+I0921 17:47:26.082463 140157902419776 devices.py:171] caching_devices: None
+I0921 17:47:26.082526 140157902419776 devices.py:172] ps_devices: ['gpu:0']
+I0921 17:47:26.082832 140157902419776 estimator.py:209] Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f78aab5af10>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_experimental_max_worker_delay_secs': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_protocol': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+    global_jit_level: OFF
+  }
+}
+isolate_session_state: true
+, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7f78aab5af90>}
+W0921 17:47:26.082936 140157902419776 model_fn.py:630] Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7f78aada5f80>) includes params argument, but params are not passed to Estimator.
+I0921 17:47:26.083004 140157902419776 decoding.py:404] decode_hp.batch_size not specified; default=32
+I0921 17:47:26.083048 140157902419776 decoding.py:415] Performing decoding from file (/home/chrisf/t2t_data/newstest2014.en).
+I0921 17:47:26.083081 140157902419776 decoding.py:860] Getting sorted inputs
+I0921 17:47:26.101061 140157902419776 decoding.py:673]  batch 86
+I0921 17:47:26.101150 140157902419776 decoding.py:675] Decoding batch 0
+W0921 17:47:26.106464 140157902419776 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:617: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0921 17:47:26.107751 140157902419776 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py:950: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0921 17:47:26.110972 140157902419776 estimator.py:1000] Input graph does not use tf.data.Dataset or contain a QueueRunner. That means predict yields forever. This is probably a mistake.
+I0921 17:47:26.111142 140157902419776 estimator.py:1145] Calling model_fn.
+I0921 17:47:26.111569 140157902419776 t2t_model.py:2249] Setting T2TModel mode to 'infer'
+I0921 17:47:26.111743 140157902419776 t2t_model.py:2249] Setting hparams.dropout to 0.0
+I0921 17:47:26.111790 140157902419776 t2t_model.py:2249] Setting hparams.label_smoothing to 0.0
+I0921 17:47:26.111832 140157902419776 t2t_model.py:2249] Setting hparams.layer_prepostprocess_dropout to 0.0
+I0921 17:47:26.111866 140157902419776 t2t_model.py:2249] Setting hparams.symbol_dropout to 0.0
+I0921 17:47:26.111906 140157902419776 t2t_model.py:2249] Setting hparams.attention_dropout to 0.0
+I0921 17:47:26.111940 140157902419776 t2t_model.py:2249] Setting hparams.relu_dropout to 0.0
+W0921 17:47:26.153231 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:244: The name tf.summary.text is deprecated. Please use tf.compat.v1.summary.text instead.
+
+I0921 17:47:26.160667 140157902419776 t2t_model.py:2249] Beam Decoding with beam size 4
+W0921 17:47:26.198096 140157902419776 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/beam_search.py:745: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+I0921 17:47:26.698130 140157902419776 api.py:255] Using variable initializer: uniform_unit_scaling
+W0921 17:47:26.723398 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+I0921 17:47:26.907382 140157902419776 t2t_model.py:2249] Transforming feature 'inputs' with symbol_modality_33510_256.bottom
+I0921 17:47:27.000784 140157902419776 t2t_model.py:2249] Transforming feature 'targets' with symbol_modality_33510_256.targets_bottom
+I0921 17:47:27.009315 140157902419776 t2t_model.py:2249] Building model body
+W0921 17:47:27.028759 140157902419776 deprecation.py:506] From /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/Original_Transformer_T2TApril2019_evolve.py:2872: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0921 17:47:27.032901 140157902419776 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:621: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0921 17:47:27.053521 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_layers.py:3077: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+I0921 17:47:45.676971 140157902419776 t2t_model.py:2249] Transforming body output with symbol_modality_33510_256.top
+W0921 17:47:45.763879 140157902419776 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:1745: The name tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY is deprecated. Please use tf.saved_model.DEFAULT_SERVING_SIGNATURE_DEF_KEY instead.
+
+I0921 17:47:45.764337 140157902419776 estimator.py:1147] Done calling model_fn.
+I0921 17:47:47.160081 140157902419776 monitored_session.py:240] Graph was finalized.
+2019-09-21 17:47:47.160278: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-09-21 17:47:47.181673: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3192000000 Hz
+2019-09-21 17:47:47.182371: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55604971f840 executing computations on platform Host. Devices:
+2019-09-21 17:47:47.182389: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-21 17:47:47.183075: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-09-21 17:47:47.213363: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:47:47.213750: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-09-21 17:47:47.213883: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:47:47.214960: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-09-21 17:47:47.216096: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-09-21 17:47:47.216266: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-09-21 17:47:47.217447: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-09-21 17:47:47.218121: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-09-21 17:47:47.220539: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-09-21 17:47:47.220626: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:47:47.221031: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:47:47.221352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-09-21 17:47:47.221408: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-09-21 17:47:47.301422: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-09-21 17:47:47.301450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-09-21 17:47:47.301457: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-09-21 17:47:47.301567: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:47:47.301912: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:47:47.302233: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-09-21 17:47:47.302526: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:40] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2019-09-21 17:47:47.302548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10460 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-09-21 17:47:47.303676: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5560580f7410 executing computations on platform CUDA. Devices:
+2019-09-21 17:47:47.303689: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+W0921 17:47:47.304766 140157902419776 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+
+
+
+
+
+HPARAMS2!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE ENCODER!!
+
+
+
+
+
+
+
+
+
+
+TRANSFORMER PREPARE DECODER!!!
+
+
+
+
+
+
+NUMBER OF PARAMTERS: 
+90982912
+
+
+Traceback (most recent call last):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 205, in main
+    decode(estimator, hp, decode_hp)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_decoder.py", line 94, in decode
+    checkpoint_path=FLAGS.checkpoint_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 474, in decode_from_file
+    for elapsed_time, result in timer(result_iter):
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/decoding.py", line 468, in timer
+    item = next(gen)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 635, in predict
+    hooks=all_hooks) as mon_sess:
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1007, in __init__
+    stop_grace_period_secs=stop_grace_period_secs)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 725, in __init__
+    self._sess = _RecoverableSession(self._coordinated_creator)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1200, in __init__
+    _WrappedSession.__init__(self, self._create_session())
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1205, in _create_session
+    return self._sess_creator.create_session()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 871, in create_session
+    self.tf_sess = self._session_creator.create_session()
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 647, in create_session
+    init_fn=self._scaffold.init_fn)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/session_manager.py", line 290, in prepare_session
+    config=config)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/session_manager.py", line 204, in _restore_checkpoint
+    saver.restore(sess, checkpoint_filename_with_path)
+  File "/home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/saver.py", line 1278, in restore
+    compat.as_text(save_path))
+ValueError: The passed save_path is not a valid checkpoint: /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve-conv_transformer_exp1_ctweqnumlayers1_evolve2-newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505/avg_models/newtest_exp_debug_decoding_general_newConvt_32k_base_16layers_2048batch_505-last5.ckpt/model.ckpt-110000
+WARNING: Logging before flag parsing goes to stderr.
+W0921 17:47:50.961253 140542478133056 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0921 17:47:50.961381 140542478133056 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:17: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0921 17:47:50.961495 140542478133056 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-bleu:18: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+W0921 17:47:50.961764 140542478133056 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/bleu_hook.py:205: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+BLEU_uncased =   5.15
+BLEU_cased =   4.94

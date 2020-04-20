@@ -1,0 +1,488 @@
+nohup: ignoring input
+WARNING: Logging before flag parsing goes to stderr.
+W1016 08:31:10.476504 140331352512320 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W1016 08:31:11.397516 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W1016 08:31:12.440305 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W1016 08:31:12.442682 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:27: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W1016 08:31:12.442771 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:27: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W1016 08:31:12.442887 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-datagen:28: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+I1016 08:31:12.443141 140331352512320 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+W1016 08:31:12.446152 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W1016 08:31:12.446418 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W1016 08:31:12.466399 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_datagen.py:204: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+I1016 08:31:12.466605 140331352512320 t2t_datagen.py:207] Generating problems:
+    translate:
+      * translate_ende_wmt32k
+W1016 08:31:12.466697 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_datagen.py:156: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+I1016 08:31:12.467074 140331352512320 t2t_datagen.py:280] Generating data for translate_ende_wmt32k.
+W1016 08:31:12.467406 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/translate.py:170: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+I1016 08:31:12.467793 140331352512320 translate.py:172] Skipping compile data, found files:
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-train.lang1
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-train.lang2
+I1016 08:31:12.467905 140331352512320 generator_utils.py:346] Found vocab file: /home/chrisf/t2t_data/vocab.translate_ende_wmt32k.32768.subwords
+W1016 08:31:12.468005 140331352512320 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+I1016 08:31:12.536005 140331352512320 generator_utils.py:153] Skipping generator because outputs files exists at ['/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00000-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00001-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00002-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00003-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00004-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00005-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00006-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00007-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00008-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00009-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00010-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00011-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00012-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00013-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00014-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00015-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00016-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00017-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00018-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00019-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00020-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00021-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00022-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00023-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00024-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00025-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00026-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00027-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00028-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00029-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00030-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00031-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00032-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00033-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00034-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00035-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00036-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00037-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00038-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00039-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00040-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00041-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00042-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00043-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00044-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00045-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00046-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00047-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00048-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00049-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00050-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00051-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00052-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00053-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00054-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00055-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00056-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00057-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00058-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00059-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00060-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00061-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00062-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00063-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00064-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00065-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00066-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00067-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00068-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00069-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00070-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00071-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00072-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00073-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00074-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00075-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00076-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00077-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00078-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00079-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00080-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00081-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00082-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00083-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00084-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00085-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00086-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00087-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00088-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00089-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00090-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00091-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00092-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00093-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00094-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00095-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00096-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00097-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00098-of-00100', '/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-train-00099-of-00100']
+I1016 08:31:12.538453 140331352512320 translate.py:172] Skipping compile data, found files:
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-dev.lang1
+/home/chrisf/t2t_datagen/translate_ende_wmt32k-compiled-dev.lang2
+I1016 08:31:12.538544 140331352512320 generator_utils.py:346] Found vocab file: /home/chrisf/t2t_data/vocab.translate_ende_wmt32k.32768.subwords
+I1016 08:31:12.607199 140331352512320 generator_utils.py:153] Skipping generator because outputs files exists at ['/home/chrisf/t2t_data/translate_ende_wmt32k-unshuffled-dev-00000-of-00001']
+I1016 08:31:12.609286 140331352512320 generator_utils.py:527] Skipping shuffle because output files exist
+WARNING: Logging before flag parsing goes to stderr.
+W1016 08:31:13.669094 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/expert_utils.py:68: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W1016 08:31:13.971053 140639356450624 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W1016 08:31:15.365228 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/adafactor.py:27: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W1016 08:31:15.365508 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/multistep_optimizer.py:32: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W1016 08:31:15.377594 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4237: The name tf.train.CheckpointSaverListener is deprecated. Please use tf.estimator.CheckpointSaverListener instead.
+
+W1016 08:31:15.377730 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/mesh_tensorflow/ops.py:4260: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+W1016 08:31:15.388542 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/models/research/neural_stack.py:38: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+
+W1016 08:31:15.410332 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/rl/gym_utils.py:235: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W1016 08:31:15.420556 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:111: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+W1016 08:31:15.428250 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:305: The name tf.estimator.tpu.TPUEstimator is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimator instead.
+
+W1016 08:31:15.428340 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow_gan/python/contrib_utils.py:310: The name tf.estimator.tpu.TPUEstimatorSpec is deprecated. Please use tf.compat.v1.estimator.tpu.TPUEstimatorSpec instead.
+
+W1016 08:31:15.804593 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:32: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W1016 08:31:15.804733 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:32: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W1016 08:31:15.804838 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/bin/t2t-trainer:33: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+I1016 08:31:15.805103 140639356450624 usr_dir.py:43] Importing user module Language_Model_April2019_Restart from path /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements
+I1016 08:31:15.806898 140639356450624 t2t_trainer.py:155] Found unparsed command-line arguments. Checking if any start with --hp_ and interpreting those as hparams settings.
+W1016 08:31:15.807025 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/bin/t2t_trainer.py:165: The name tf.logging.warn is deprecated. Please use tf.compat.v1.logging.warn instead.
+
+W1016 08:31:15.807072 140639356450624 t2t_trainer.py:165] Found unknown flag: --allow_growth=True
+W1016 08:31:15.807362 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/hparams_lib.py:49: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W1016 08:31:15.807479 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:839: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+W1016 08:31:15.808029 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:123: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W1016 08:31:15.808120 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:129: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W1016 08:31:15.808218 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/trainer_lib.py:242: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+I1016 08:31:15.808318 140639356450624 trainer_lib.py:265] Configuring DataParallelism to replicate the model.
+I1016 08:31:15.808362 140639356450624 devices.py:76] schedule=train
+I1016 08:31:15.808399 140639356450624 devices.py:77] worker_gpu=1
+I1016 08:31:15.808434 140639356450624 devices.py:78] sync=False
+W1016 08:31:15.808469 140639356450624 devices.py:141] Schedule=train. Assuming that training is running on a single machine.
+I1016 08:31:15.808508 140639356450624 devices.py:170] datashard_devices: ['gpu:0']
+I1016 08:31:15.808628 140639356450624 devices.py:171] caching_devices: None
+I1016 08:31:15.808696 140639356450624 devices.py:172] ps_devices: ['gpu:0']
+W1016 08:31:15.808813 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/text_encoder.py:940: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+I1016 08:31:15.876685 140639356450624 estimator.py:209] Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fe8c39c97d0>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_eval_distribute': None, '_experimental_max_worker_delay_secs': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': 600, '_log_step_count_steps': 100, '_protocol': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+    global_jit_level: OFF
+  }
+}
+isolate_session_state: true
+, '_save_checkpoints_steps': None, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7fe8c39c9850>}
+W1016 08:31:15.876909 140639356450624 model_fn.py:630] Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7fe8c4407b00>) includes params argument, but params are not passed to Estimator.
+W1016 08:31:15.885910 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+I1016 08:31:15.896035 140639356450624 problem.py:644] Reading data files from /home/chrisf/t2t_data/translate_ende_wmt32k-train*
+I1016 08:31:15.897664 140639356450624 problem.py:670] partition: 0 num_data_files: 100
+W1016 08:31:15.898888 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/data_generators/problem.py:680: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W1016 08:31:15.947890 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:275: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+W1016 08:31:16.007984 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:37: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W1016 08:31:16.034893 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensorflow/python/data/experimental/ops/grouping.py:193: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W1016 08:31:16.063944 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:231: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W1016 08:31:16.070371 140639356450624 deprecation.py:323] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/data_reader.py:233: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+I1016 08:31:16.102654 140639356450624 estimator.py:1145] Calling model_fn.
+I1016 08:31:16.109956 140639356450624 t2t_model.py:2249] Setting T2TModel mode to 'train'
+W1016 08:31:16.154251 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/t2t_model.py:244: The name tf.summary.text is deprecated. Please use tf.compat.v1.summary.text instead.
+
+I1016 08:31:16.639424 140639356450624 api.py:255] Using variable initializer: uniform_unit_scaling
+I1016 08:31:16.897669 140639356450624 t2t_model.py:2249] Transforming feature 'inputs' with symbol_modality_33510_1024.bottom
+I1016 08:31:16.980110 140639356450624 t2t_model.py:2249] Transforming feature 'targets' with symbol_modality_33510_1024.targets_bottom
+I1016 08:31:16.987560 140639356450624 t2t_model.py:2249] Building model body
+W1016 08:31:17.027970 140639356450624 deprecation.py:506] From /home/chrisf/t2t_user_dir/DEFENSE_langage_model_experiements/Language_Model_April2019_Restart/Original_Transformer_T2TApril2019_evolve_2.py:3105: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W1016 08:31:17.056996 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_layers.py:3077: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+W1016 08:31:17.382441 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/layers/common_attention.py:1249: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+I1016 08:31:21.073146 140639356450624 t2t_model.py:2249] Transforming body output with symbol_modality_33510_1024.top
+W1016 08:31:21.141305 140639356450624 deprecation_wrapper.py:119] From /home/chrisf/anaconda3/envs/thesis_tf/lib/python3.7/site-packages/tensor2tensor/utils/learning_rate.py:120: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+I1016 08:31:21.142083 140639356450624 learning_rate.py:29] Base learning rate: 0.100000
+I1016 08:31:21.148971 140639356450624 optimize.py:338] Trainable Variables Total size: 280172544
+I1016 08:31:21.149199 140639356450624 optimize.py:338] Non-trainable variables Total size: 5
+I1016 08:31:21.149372 140639356450624 optimize.py:193] Using optimizer adam
+I1016 08:31:28.537370 140639356450624 estimator.py:1147] Done calling model_fn.
+I1016 08:31:28.538270 140639356450624 basic_session_run_hooks.py:541] Create CheckpointSaverHook.
+I1016 08:31:30.949762 140639356450624 monitored_session.py:240] Graph was finalized.
+2019-10-16 08:31:30.949997: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-16 08:31:30.971620: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3192000000 Hz
+2019-10-16 08:31:30.973019: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56137443cf60 executing computations on platform Host. Devices:
+2019-10-16 08:31:30.973041: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-16 08:31:30.973712: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-10-16 08:31:30.992211: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-10-16 08:31:30.992626: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.755
+pciBusID: 0000:01:00.0
+2019-10-16 08:31:30.992777: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-10-16 08:31:30.993778: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-10-16 08:31:30.994809: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2019-10-16 08:31:30.994996: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2019-10-16 08:31:30.996104: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2019-10-16 08:31:30.996584: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2019-10-16 08:31:30.998708: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-10-16 08:31:30.998812: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-10-16 08:31:30.999199: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-10-16 08:31:30.999580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-10-16 08:31:30.999622: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2019-10-16 08:31:31.053719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-16 08:31:31.053749: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-10-16 08:31:31.053756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-10-16 08:31:31.053866: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-10-16 08:31:31.054213: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-10-16 08:31:31.054523: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-10-16 08:31:31.054805: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:40] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2019-10-16 08:31:31.054827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10460 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-10-16 08:31:31.055852: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561381810cb0 executing computations on platform CUDA. Devices:
+2019-10-16 08:31:31.055865: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2019-10-16 08:31:34.093416: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+I1016 08:31:38.161514 140639356450624 session_manager.py:500] Running local_init_op.
+I1016 08:31:38.356424 140639356450624 session_manager.py:502] Done running local_init_op.
+I1016 08:31:45.491325 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 0 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+2019-10-16 08:32:33.912734: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2019-10-16 08:32:38.224370: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+I1016 08:32:40.886839 140639356450624 basic_session_run_hooks.py:262] loss = 9.555406, step = 0
+2019-10-16 08:32:47.122747: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 2.21G (2378029312 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-10-16 08:32:47.125298: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 1.99G (2140226304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-10-16 08:32:47.127608: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 1.79G (1926203648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-10-16 08:32:47.130063: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 1.61G (1733583360 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-10-16 08:32:47.132451: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 1.45G (1560225024 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2019-10-16 08:33:12.783020: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.53GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:12.783958: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.53GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:12.798376: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.53GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:12.798441: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.53GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:13.077656: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.26GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:13.077690: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.26GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:13.087328: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.53GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:13.087351: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.53GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:13.115516: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.26GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-10-16 08:33:13.115538: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.26GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I1016 08:33:34.867621 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.85249
+I1016 08:33:34.868451 140639356450624 basic_session_run_hooks.py:260] loss = 7.981017, step = 100 (53.982 sec)
+I1016 08:34:16.368796 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.40957
+I1016 08:34:16.369893 140639356450624 basic_session_run_hooks.py:260] loss = 7.3488216, step = 200 (41.501 sec)
+I1016 08:34:54.937464 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.59278
+I1016 08:34:54.938380 140639356450624 basic_session_run_hooks.py:260] loss = 6.8874187, step = 300 (38.569 sec)
+I1016 08:35:34.087906 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.55425
+I1016 08:35:34.088792 140639356450624 basic_session_run_hooks.py:260] loss = 6.544612, step = 400 (39.150 sec)
+I1016 08:36:11.737144 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6561
+I1016 08:36:11.737771 140639356450624 basic_session_run_hooks.py:260] loss = 5.981398, step = 500 (37.649 sec)
+I1016 08:36:50.133358 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.60443
+I1016 08:36:50.134198 140639356450624 basic_session_run_hooks.py:260] loss = 4.9054723, step = 600 (38.396 sec)
+I1016 08:37:27.493975 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67662
+I1016 08:37:27.494843 140639356450624 basic_session_run_hooks.py:260] loss = 4.2128806, step = 700 (37.361 sec)
+I1016 08:38:06.015036 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.59598
+I1016 08:38:06.015922 140639356450624 basic_session_run_hooks.py:260] loss = 3.7308612, step = 800 (38.521 sec)
+I1016 08:38:44.377521 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.60671
+I1016 08:38:44.378415 140639356450624 basic_session_run_hooks.py:260] loss = 2.5230298, step = 900 (38.362 sec)
+I1016 08:39:21.673096 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68128
+I1016 08:39:21.673982 140639356450624 basic_session_run_hooks.py:260] loss = 2.526765, step = 1000 (37.296 sec)
+I1016 08:39:59.969929 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.61118
+I1016 08:39:59.970834 140639356450624 basic_session_run_hooks.py:260] loss = 2.286067, step = 1100 (38.297 sec)
+I1016 08:40:38.063596 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.62511
+I1016 08:40:38.064484 140639356450624 basic_session_run_hooks.py:260] loss = 1.6992495, step = 1200 (38.094 sec)
+I1016 08:41:15.746317 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65374
+I1016 08:41:15.747159 140639356450624 basic_session_run_hooks.py:260] loss = 1.1602058, step = 1300 (37.683 sec)
+I1016 08:41:52.887918 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6924
+I1016 08:41:52.888898 140639356450624 basic_session_run_hooks.py:260] loss = 1.1396992, step = 1400 (37.142 sec)
+I1016 08:42:16.147247 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 1463 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 08:42:59.944378 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.49128
+I1016 08:42:59.945576 140639356450624 basic_session_run_hooks.py:260] loss = 0.7783168, step = 1500 (67.057 sec)
+I1016 08:43:37.433068 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66747
+I1016 08:43:37.433845 140639356450624 basic_session_run_hooks.py:260] loss = 0.575835, step = 1600 (37.488 sec)
+I1016 08:44:16.775380 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.54179
+I1016 08:44:16.776226 140639356450624 basic_session_run_hooks.py:260] loss = 0.38916796, step = 1700 (39.342 sec)
+I1016 08:44:54.062237 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68191
+I1016 08:44:54.063176 140639356450624 basic_session_run_hooks.py:260] loss = 0.29994556, step = 1800 (37.287 sec)
+I1016 08:45:31.380850 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67963
+I1016 08:45:31.381666 140639356450624 basic_session_run_hooks.py:260] loss = 0.27860117, step = 1900 (37.318 sec)
+I1016 08:46:09.435964 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.62777
+I1016 08:46:09.436981 140639356450624 basic_session_run_hooks.py:260] loss = 0.20692754, step = 2000 (38.055 sec)
+I1016 08:46:47.931675 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.59769
+I1016 08:46:47.932601 140639356450624 basic_session_run_hooks.py:260] loss = 0.19130309, step = 2100 (38.496 sec)
+I1016 08:47:25.726844 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64584
+I1016 08:47:25.727715 140639356450624 basic_session_run_hooks.py:260] loss = 0.14446917, step = 2200 (37.795 sec)
+I1016 08:48:04.447270 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.58262
+I1016 08:48:04.448306 140639356450624 basic_session_run_hooks.py:260] loss = 0.120378934, step = 2300 (38.721 sec)
+I1016 08:48:42.207250 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64831
+I1016 08:48:42.208226 140639356450624 basic_session_run_hooks.py:260] loss = 0.13459879, step = 2400 (37.760 sec)
+I1016 08:49:20.095378 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.63935
+I1016 08:49:20.096224 140639356450624 basic_session_run_hooks.py:260] loss = 0.13252921, step = 2500 (37.888 sec)
+I1016 08:49:58.043173 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6352
+I1016 08:49:58.044100 140639356450624 basic_session_run_hooks.py:260] loss = 0.106477484, step = 2600 (37.948 sec)
+I1016 08:50:35.476590 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67141
+I1016 08:50:35.477440 140639356450624 basic_session_run_hooks.py:260] loss = 0.08817431, step = 2700 (37.433 sec)
+I1016 08:51:13.518630 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.62867
+I1016 08:51:13.519386 140639356450624 basic_session_run_hooks.py:260] loss = 0.16436444, step = 2800 (38.042 sec)
+I1016 08:51:51.289758 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64753
+I1016 08:51:51.290600 140639356450624 basic_session_run_hooks.py:260] loss = 0.095832795, step = 2900 (37.771 sec)
+I1016 08:52:16.399193 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 2968 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 08:52:40.376897 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.03719
+I1016 08:52:40.377873 140639356450624 basic_session_run_hooks.py:260] loss = 0.091325544, step = 3000 (49.087 sec)
+I1016 08:53:18.018796 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65661
+I1016 08:53:18.019778 140639356450624 basic_session_run_hooks.py:260] loss = 0.14636485, step = 3100 (37.642 sec)
+I1016 08:53:56.056854 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.62895
+I1016 08:53:56.057599 140639356450624 basic_session_run_hooks.py:260] loss = 0.14196688, step = 3200 (38.038 sec)
+I1016 08:54:33.588810 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6644
+I1016 08:54:33.589721 140639356450624 basic_session_run_hooks.py:260] loss = 0.0924637, step = 3300 (37.532 sec)
+I1016 08:55:11.104158 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66558
+I1016 08:55:11.104987 140639356450624 basic_session_run_hooks.py:260] loss = 0.09868314, step = 3400 (37.515 sec)
+I1016 08:55:48.945110 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64264
+I1016 08:55:48.946163 140639356450624 basic_session_run_hooks.py:260] loss = 0.088390425, step = 3500 (37.841 sec)
+I1016 08:56:26.936941 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.63215
+I1016 08:56:26.937728 140639356450624 basic_session_run_hooks.py:260] loss = 0.087951735, step = 3600 (37.992 sec)
+I1016 08:57:04.359415 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67219
+I1016 08:57:04.360440 140639356450624 basic_session_run_hooks.py:260] loss = 0.07356365, step = 3700 (37.423 sec)
+I1016 08:57:41.869959 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66592
+I1016 08:57:41.870914 140639356450624 basic_session_run_hooks.py:260] loss = 0.07247314, step = 3800 (37.510 sec)
+I1016 08:58:19.725106 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64165
+I1016 08:58:19.726062 140639356450624 basic_session_run_hooks.py:260] loss = 0.08351123, step = 3900 (37.855 sec)
+I1016 08:58:57.267498 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66365
+I1016 08:58:57.268508 140639356450624 basic_session_run_hooks.py:260] loss = 0.07379362, step = 4000 (37.542 sec)
+I1016 08:59:34.906740 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6568
+I1016 08:59:34.907629 140639356450624 basic_session_run_hooks.py:260] loss = 0.08617936, step = 4100 (37.639 sec)
+I1016 09:00:12.089970 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68938
+I1016 09:00:12.090865 140639356450624 basic_session_run_hooks.py:260] loss = 0.06818521, step = 4200 (37.183 sec)
+I1016 09:00:50.030849 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.63568
+I1016 09:00:50.031990 140639356450624 basic_session_run_hooks.py:260] loss = 2.3779242, step = 4300 (37.941 sec)
+I1016 09:01:27.392979 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67651
+I1016 09:01:27.393790 140639356450624 basic_session_run_hooks.py:260] loss = 0.09215475, step = 4400 (37.362 sec)
+I1016 09:02:04.857760 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66917
+I1016 09:02:04.858688 140639356450624 basic_session_run_hooks.py:260] loss = 0.070376046, step = 4500 (37.465 sec)
+I1016 09:02:16.540981 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 4532 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 09:03:13.096351 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.46545
+I1016 09:03:13.097958 140639356450624 basic_session_run_hooks.py:260] loss = 0.08731587, step = 4600 (68.239 sec)
+I1016 09:03:50.346446 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68456
+I1016 09:03:50.347452 140639356450624 basic_session_run_hooks.py:260] loss = 0.063598655, step = 4700 (37.249 sec)
+I1016 09:04:27.675906 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67885
+I1016 09:04:27.676776 140639356450624 basic_session_run_hooks.py:260] loss = 0.08075462, step = 4800 (37.329 sec)
+I1016 09:05:05.145183 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66885
+I1016 09:05:05.145950 140639356450624 basic_session_run_hooks.py:260] loss = 0.06906705, step = 4900 (37.469 sec)
+I1016 09:05:42.530657 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67484
+I1016 09:05:42.531533 140639356450624 basic_session_run_hooks.py:260] loss = 0.06689326, step = 5000 (37.386 sec)
+I1016 09:06:20.390413 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64133
+I1016 09:06:20.391460 140639356450624 basic_session_run_hooks.py:260] loss = 0.07039226, step = 5100 (37.860 sec)
+I1016 09:06:58.008783 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65828
+I1016 09:06:58.009965 140639356450624 basic_session_run_hooks.py:260] loss = 0.11905683, step = 5200 (37.619 sec)
+I1016 09:07:35.398368 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67454
+I1016 09:07:35.399379 140639356450624 basic_session_run_hooks.py:260] loss = 0.09964225, step = 5300 (37.389 sec)
+I1016 09:08:13.262046 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64105
+I1016 09:08:13.263082 140639356450624 basic_session_run_hooks.py:260] loss = 0.06214628, step = 5400 (37.864 sec)
+I1016 09:08:50.923054 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65527
+I1016 09:08:50.923803 140639356450624 basic_session_run_hooks.py:260] loss = 0.06256366, step = 5500 (37.661 sec)
+I1016 09:09:28.387173 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66922
+I1016 09:09:28.388072 140639356450624 basic_session_run_hooks.py:260] loss = 0.0754275, step = 5600 (37.464 sec)
+I1016 09:10:06.190787 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64525
+I1016 09:10:06.191805 140639356450624 basic_session_run_hooks.py:260] loss = 0.056499477, step = 5700 (37.804 sec)
+I1016 09:10:43.747510 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66264
+I1016 09:10:43.748353 140639356450624 basic_session_run_hooks.py:260] loss = 0.069894895, step = 5800 (37.557 sec)
+I1016 09:11:21.156686 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67314
+I1016 09:11:21.157678 140639356450624 basic_session_run_hooks.py:260] loss = 0.061616752, step = 5900 (37.409 sec)
+I1016 09:11:58.870362 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65156
+I1016 09:11:58.871351 140639356450624 basic_session_run_hooks.py:260] loss = 0.06004379, step = 6000 (37.714 sec)
+I1016 09:12:16.711502 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 6048 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 09:12:51.329500 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.90625
+I1016 09:12:51.330909 140639356450624 basic_session_run_hooks.py:260] loss = 0.07415866, step = 6100 (52.460 sec)
+I1016 09:13:28.990110 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65529
+I1016 09:13:28.991291 140639356450624 basic_session_run_hooks.py:260] loss = 0.07042411, step = 6200 (37.660 sec)
+I1016 09:14:06.539606 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66315
+I1016 09:14:06.540606 140639356450624 basic_session_run_hooks.py:260] loss = 0.056277473, step = 6300 (37.549 sec)
+I1016 09:14:43.985813 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6705
+I1016 09:14:43.986727 140639356450624 basic_session_run_hooks.py:260] loss = 0.06186365, step = 6400 (37.446 sec)
+I1016 09:15:21.394744 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67316
+I1016 09:15:21.396849 140639356450624 basic_session_run_hooks.py:260] loss = 0.42751142, step = 6500 (37.410 sec)
+I1016 09:15:58.724971 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67879
+I1016 09:15:58.725790 140639356450624 basic_session_run_hooks.py:260] loss = 0.09324, step = 6600 (37.329 sec)
+I1016 09:16:36.470103 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64935
+I1016 09:16:36.471084 140639356450624 basic_session_run_hooks.py:260] loss = 0.064515635, step = 6700 (37.745 sec)
+I1016 09:17:14.051653 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66088
+I1016 09:17:14.052545 140639356450624 basic_session_run_hooks.py:260] loss = 0.1002492, step = 6800 (37.581 sec)
+I1016 09:17:52.027964 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.63322
+I1016 09:17:52.028970 140639356450624 basic_session_run_hooks.py:260] loss = 0.079386525, step = 6900 (37.976 sec)
+I1016 09:18:29.186208 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.69119
+I1016 09:18:29.187362 140639356450624 basic_session_run_hooks.py:260] loss = 0.10096139, step = 7000 (37.158 sec)
+I1016 09:19:06.696705 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66592
+I1016 09:19:06.697415 140639356450624 basic_session_run_hooks.py:260] loss = 0.06093095, step = 7100 (37.510 sec)
+I1016 09:19:44.480025 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64667
+I1016 09:19:44.481054 140639356450624 basic_session_run_hooks.py:260] loss = 0.0548146, step = 7200 (37.784 sec)
+I1016 09:20:22.111519 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65735
+I1016 09:20:22.112509 140639356450624 basic_session_run_hooks.py:260] loss = 0.056588978, step = 7300 (37.631 sec)
+I1016 09:20:59.551060 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67097
+I1016 09:20:59.551916 140639356450624 basic_session_run_hooks.py:260] loss = 0.048840243, step = 7400 (37.439 sec)
+I1016 09:21:36.866698 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67984
+I1016 09:21:36.867551 140639356450624 basic_session_run_hooks.py:260] loss = 0.048806153, step = 7500 (37.316 sec)
+I1016 09:22:14.292630 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67195
+I1016 09:22:14.293543 140639356450624 basic_session_run_hooks.py:260] loss = 0.05199558, step = 7600 (37.426 sec)
+I1016 09:22:16.894909 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 7608 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 09:23:25.596772 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.40244
+I1016 09:23:25.598261 140639356450624 basic_session_run_hooks.py:260] loss = 0.0504041, step = 7700 (71.305 sec)
+I1016 09:24:03.234991 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65687
+I1016 09:24:03.236003 140639356450624 basic_session_run_hooks.py:260] loss = 0.11709088, step = 7800 (37.638 sec)
+I1016 09:24:40.571156 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67837
+I1016 09:24:40.572235 140639356450624 basic_session_run_hooks.py:260] loss = 0.0797036, step = 7900 (37.336 sec)
+I1016 09:25:18.114212 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66361
+I1016 09:25:18.115411 140639356450624 basic_session_run_hooks.py:260] loss = 0.05726873, step = 8000 (37.543 sec)
+I1016 09:25:55.219536 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.69503
+I1016 09:25:55.220445 140639356450624 basic_session_run_hooks.py:260] loss = 0.0866996, step = 8100 (37.105 sec)
+I1016 09:26:32.835419 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65845
+I1016 09:26:32.836389 140639356450624 basic_session_run_hooks.py:260] loss = 0.059458222, step = 8200 (37.616 sec)
+I1016 09:27:10.588636 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64878
+I1016 09:27:10.589257 140639356450624 basic_session_run_hooks.py:260] loss = 0.122763306, step = 8300 (37.753 sec)
+I1016 09:27:48.361922 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64738
+I1016 09:27:48.362883 140639356450624 basic_session_run_hooks.py:260] loss = 0.06653408, step = 8400 (37.774 sec)
+I1016 09:28:25.549852 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68904
+I1016 09:28:25.550754 140639356450624 basic_session_run_hooks.py:260] loss = 0.066767596, step = 8500 (37.188 sec)
+I1016 09:29:03.357508 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64497
+I1016 09:29:03.358668 140639356450624 basic_session_run_hooks.py:260] loss = 0.05274972, step = 8600 (37.808 sec)
+I1016 09:29:40.925630 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66183
+I1016 09:29:40.926510 140639356450624 basic_session_run_hooks.py:260] loss = 0.0683586, step = 8700 (37.568 sec)
+I1016 09:30:18.322404 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67403
+I1016 09:30:18.323424 140639356450624 basic_session_run_hooks.py:260] loss = 0.06017404, step = 8800 (37.397 sec)
+I1016 09:30:55.848029 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66484
+I1016 09:30:55.848919 140639356450624 basic_session_run_hooks.py:260] loss = 0.045293782, step = 8900 (37.525 sec)
+I1016 09:31:33.267877 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67238
+I1016 09:31:33.268875 140639356450624 basic_session_run_hooks.py:260] loss = 0.047572162, step = 9000 (37.420 sec)
+I1016 09:32:10.743830 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66838
+I1016 09:32:10.744798 140639356450624 basic_session_run_hooks.py:260] loss = 0.042920724, step = 9100 (37.476 sec)
+I1016 09:32:16.993443 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 9118 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 09:33:16.677103 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.51668
+I1016 09:33:16.678394 140639356450624 basic_session_run_hooks.py:260] loss = 0.068434894, step = 9200 (65.934 sec)
+I1016 09:33:54.394825 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65127
+I1016 09:33:54.395659 140639356450624 basic_session_run_hooks.py:260] loss = 0.078045964, step = 9300 (37.717 sec)
+I1016 09:34:31.735530 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67804
+I1016 09:34:31.736427 140639356450624 basic_session_run_hooks.py:260] loss = 0.048539862, step = 9400 (37.341 sec)
+I1016 09:35:09.557878 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64394
+I1016 09:35:09.558835 140639356450624 basic_session_run_hooks.py:260] loss = 0.043251265, step = 9500 (37.822 sec)
+I1016 09:35:46.696391 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.69262
+I1016 09:35:46.697197 140639356450624 basic_session_run_hooks.py:260] loss = 0.04313852, step = 9600 (37.138 sec)
+I1016 09:36:24.186548 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66737
+I1016 09:36:24.187616 140639356450624 basic_session_run_hooks.py:260] loss = 0.04347229, step = 9700 (37.490 sec)
+I1016 09:37:02.501084 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.60998
+I1016 09:37:02.501979 140639356450624 basic_session_run_hooks.py:260] loss = 0.088709995, step = 9800 (38.314 sec)
+I1016 09:37:39.757552 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6841
+I1016 09:37:39.758395 140639356450624 basic_session_run_hooks.py:260] loss = 0.0588252, step = 9900 (37.256 sec)
+I1016 09:38:17.001294 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68501
+I1016 09:38:17.002166 140639356450624 basic_session_run_hooks.py:260] loss = 0.04486735, step = 10000 (37.244 sec)
+I1016 09:38:54.687363 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6535
+I1016 09:38:54.688232 140639356450624 basic_session_run_hooks.py:260] loss = 0.050128523, step = 10100 (37.686 sec)
+I1016 09:39:31.897870 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68741
+I1016 09:39:31.898703 140639356450624 basic_session_run_hooks.py:260] loss = 0.04814018, step = 10200 (37.210 sec)
+I1016 09:40:09.243051 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67772
+I1016 09:40:09.244092 140639356450624 basic_session_run_hooks.py:260] loss = 0.04396018, step = 10300 (37.345 sec)
+I1016 09:40:46.468378 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68634
+I1016 09:40:46.469270 140639356450624 basic_session_run_hooks.py:260] loss = 0.06666336, step = 10400 (37.225 sec)
+I1016 09:41:23.945578 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66829
+I1016 09:41:23.946566 140639356450624 basic_session_run_hooks.py:260] loss = 0.06941786, step = 10500 (37.477 sec)
+I1016 09:42:00.951744 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.70225
+I1016 09:42:00.952711 140639356450624 basic_session_run_hooks.py:260] loss = 0.039687846, step = 10600 (37.006 sec)
+I1016 09:42:17.263489 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 10645 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 09:42:49.572902 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.05672
+I1016 09:42:49.574006 140639356450624 basic_session_run_hooks.py:260] loss = 0.047511466, step = 10700 (48.621 sec)
+I1016 09:43:27.071604 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66676
+I1016 09:43:27.072449 140639356450624 basic_session_run_hooks.py:260] loss = 0.08839269, step = 10800 (37.498 sec)
+I1016 09:44:04.321413 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68458
+I1016 09:44:04.322325 140639356450624 basic_session_run_hooks.py:260] loss = 0.052106064, step = 10900 (37.250 sec)
+I1016 09:44:42.082779 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64821
+I1016 09:44:42.083793 140639356450624 basic_session_run_hooks.py:260] loss = 0.057551403, step = 11000 (37.761 sec)
+I1016 09:45:19.763380 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65389
+I1016 09:45:19.764180 140639356450624 basic_session_run_hooks.py:260] loss = 0.055953324, step = 11100 (37.680 sec)
+I1016 09:45:58.048208 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.612
+I1016 09:45:58.049143 140639356450624 basic_session_run_hooks.py:260] loss = 0.042010657, step = 11200 (38.285 sec)
+I1016 09:46:35.536277 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66752
+I1016 09:46:35.537202 140639356450624 basic_session_run_hooks.py:260] loss = 0.052537885, step = 11300 (37.488 sec)
+I1016 09:47:13.177842 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.65664
+I1016 09:47:13.178757 140639356450624 basic_session_run_hooks.py:260] loss = 0.052963536, step = 11400 (37.642 sec)
+I1016 09:47:50.573526 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6741
+I1016 09:47:50.574374 140639356450624 basic_session_run_hooks.py:260] loss = 0.05619786, step = 11500 (37.396 sec)
+I1016 09:48:28.109735 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6641
+I1016 09:48:28.110646 140639356450624 basic_session_run_hooks.py:260] loss = 0.04183084, step = 11600 (37.536 sec)
+I1016 09:49:05.540071 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67163
+I1016 09:49:05.540840 140639356450624 basic_session_run_hooks.py:260] loss = 0.0489974, step = 11700 (37.430 sec)
+I1016 09:49:43.129552 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66032
+I1016 09:49:43.130464 140639356450624 basic_session_run_hooks.py:260] loss = 4.143345, step = 11800 (37.590 sec)
+I1016 09:50:20.532472 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.67359
+I1016 09:50:20.533214 140639356450624 basic_session_run_hooks.py:260] loss = 0.11754431, step = 11900 (37.403 sec)
+I1016 09:50:58.191588 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.6554
+I1016 09:50:58.192851 140639356450624 basic_session_run_hooks.py:260] loss = 0.079898685, step = 12000 (37.660 sec)
+I1016 09:51:35.750795 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66246
+I1016 09:51:35.751540 140639356450624 basic_session_run_hooks.py:260] loss = 0.06218434, step = 12100 (37.559 sec)
+I1016 09:52:13.518531 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64776
+I1016 09:52:13.519624 140639356450624 basic_session_run_hooks.py:260] loss = 0.056562748, step = 12200 (37.768 sec)
+I1016 09:52:17.621000 140639356450624 basic_session_run_hooks.py:606] Saving checkpoints for 12212 into /home/chrisf/t2t_train/translate_ende_wmt32k/transformer_original_april2019_evolve2-conv_transformer_exp1_ctweqnumlayers1_evolve6-newtest_exp_debug_alt_og_transcoder_convt_with_pointatten_causalpaddingonlyondecodermh1_610/model.ckpt.
+I1016 09:53:08.674021 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 1.81306
+I1016 09:53:08.675274 140639356450624 basic_session_run_hooks.py:260] loss = 0.066425405, step = 12300 (55.156 sec)
+I1016 09:53:46.188539 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66564
+I1016 09:53:46.189708 140639356450624 basic_session_run_hooks.py:260] loss = 0.041666053, step = 12400 (37.514 sec)
+I1016 09:54:23.394744 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.68772
+I1016 09:54:23.395505 140639356450624 basic_session_run_hooks.py:260] loss = 0.046354633, step = 12500 (37.206 sec)
+I1016 09:55:01.220643 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.64369
+I1016 09:55:01.221867 140639356450624 basic_session_run_hooks.py:260] loss = 0.06545673, step = 12600 (37.826 sec)
+I1016 09:55:38.722172 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66656
+I1016 09:55:38.723188 140639356450624 basic_session_run_hooks.py:260] loss = 0.03785453, step = 12700 (37.501 sec)
+I1016 09:56:16.281818 140639356450624 basic_session_run_hooks.py:692] global_step/sec: 2.66243
+I1016 09:56:16.283394 140639356450624 basic_session_run_hooks.py:260] loss = 0.071586624, step = 12800 (37.560 sec)
